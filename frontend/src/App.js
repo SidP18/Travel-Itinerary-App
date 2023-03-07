@@ -21,20 +21,17 @@ function App() {
     setText(text)
     setToDoId(_id)
   }
-
-  return (
-    <div className="App">
       const [currentForm, setCurrentForm] = useState('login');
 
         const toggleForm = (formName) => {
           setCurrentForm(formName);
         }
-
-
-              currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
-
+  return (
+    <div className="App">
 <div className="container">
-  <h1>ToDo App</h1>
+<h1> Login </h1>
+<div> currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} /> </div>
+  <h2>ToDo App</h2>
   <div className="top">
     <input 
     type="text" 
