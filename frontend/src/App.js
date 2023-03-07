@@ -35,11 +35,7 @@ function App() {
   <div className="top">
     <input 
     type="text" 
-<<<<<<< HEAD
-    placeholder="Add ToDos" 
-=======
     placeholder="Add ToDos..."
->>>>>>> eecaf8970e225672a3f5c8c49206c1892d09cd97
     value={text}
     onChange={(e) => setText(e.target.value)}
     />
