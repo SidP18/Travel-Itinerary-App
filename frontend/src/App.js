@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import ToDo from "./components/ToDo";
 import { addToDo, getAllToDo, updateToDo, deleteToDo } from "./utils/HandleApi";
-import { Login } from ".components/Login";
-import { Register } from ".components/Register";
+import { Login } from "./components/Login";
+import { Register } from "./components/Register";
 
 function App() {
 
