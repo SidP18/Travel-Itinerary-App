@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import ToDo from "./components/ToDo";
 import { addToDo, getAllToDo, updateToDo, deleteToDo } from "./utils/HandleApi";
-import { Login } from "./Login";
-import { Register } from "./Register";
+import { Login } from "./components/Login";
+import { Register } from "./components/Register";
+import {ItineraryEdit} from "./components/ItineraryEdit/ItineraryEdit";
 
 function App() {
 
@@ -28,9 +29,10 @@ function App() {
         }
   return (
     <div className="App">
+    <ItineraryEdit/>
 <div className="container">
 <h1> Login </h1>
-<div> currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} /> </div>
+<div> {currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />} </div>
   <h2>ToDo App</h2>
   <div className="top">
     <input 
