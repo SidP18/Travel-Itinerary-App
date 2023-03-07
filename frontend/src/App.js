@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import ToDo from "./components/ToDo";
 import { addToDo, getAllToDo, updateToDo, deleteToDo } from "./utils/HandleApi";
+import { Login } from "./Login";
+import { Register } from "./Register";
 
 function App() {
 
@@ -22,15 +24,21 @@ function App() {
 
   return (
     <div className="App">
-      
+      const [currentForm, setCurrentForm] = useState('login');
 
+        const toggleForm = (formName) => {
+          setCurrentForm(formName);
+        }
+
+
+              currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
 
 <div className="container">
   <h1>ToDo App</h1>
   <div className="top">
     <input 
     type="text" 
-    placeholder="Add ToDos..." 
+    placeholder="Add ToDos..."
     value={text}
     onChange={(e) => setText(e.target.value)}
     />
@@ -54,7 +62,6 @@ function App() {
 
   </div>
 </div>
-
 
 
     </div>
