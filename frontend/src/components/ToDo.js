@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 import {BiEdit} from "react-icons/bi"
 import {AiFillDelete} from "react-icons/ai"
 
@@ -10,6 +10,7 @@ const ToDo = ({text, updateMode, deleteToDo}) => {
         <div className="icons">
             <BiEdit className = 'icon' onClick={updateMode} />
             <AiFillDelete className = 'icon' onClick={deleteToDo} />
+            <Link to="/edit"> Update Activities </Link>
         </div>
     </div>
   )

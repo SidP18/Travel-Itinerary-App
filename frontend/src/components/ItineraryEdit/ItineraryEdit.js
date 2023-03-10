@@ -3,6 +3,7 @@ import './itinerary-edit.css';
 import {ActivityCard} from "./activityCard";
 import {sample_activities} from "../../sample_data/sample_activities.js";
 import { FaBars } from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 
 export const ItineraryEdit = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +25,9 @@ export const ItineraryEdit = (props) => {
                 {isOpen && (
                   <div className="dropdown-menu">
                     <ul>
-                      <li>Log Out</li>
+                      <li><Link to="/login">Logout</Link></li>
                       <li>Settings</li>
-                      <li>My Trips</li>
+                      <li><Link to="/list">My Trips</Link></li>
                     </ul>
                   </div>
                 )}

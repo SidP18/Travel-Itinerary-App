@@ -29,7 +29,7 @@ const styles = {
     alignItems: 'center',
     padding: '12px',
     borderRadius: '8px',
-    backgroundColor: '#F8F1FF',
+    backgroundColor: '#FFFFFF',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
     margin: '1rem'
   },
