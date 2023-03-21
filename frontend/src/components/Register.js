@@ -20,12 +20,12 @@ export const Register = (props) => {
                 <input className="form-inputs" value={name} name="name" onChange={(e) => setName(e.target.value)} id="name" placeholder="Full Name" />
 
                 <label htmlFor="email" className="form-labels">Email</label>
-                <input className="form-inputs" value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
+                <input className="form-inputs" value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="your email@gmail.com" id="email" name="email" />
 
                 <label htmlFor="password" className="form-labels">Password</label>
                 <input className="form-inputs" value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
 
-                <button type="submit" className="form-buttons">Log In</button>
+                <button type="submit" className="form-buttons">Register</button>
 
                 <Link className="route-links" to="/login"> Already have an account? Login here.</Link>
                 <Link className="route-links" to="/list"> Go to my trips </Link>
