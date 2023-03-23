@@ -1,0 +1,84 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.search-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.search-inputs {
+  width: 70%;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.destination {
+    display: block;
+    width: 100%;
+}
+
+.search-input label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.destination input {
+    width: 100% !important;
+}
+
+.date-picker-container{
+    display: flex ;
+    justify-content: left;
+}
+
+.search-input input {
+  width: 200px;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  transition: all 0.2s ease-in-out;
+}
+.search-input .react-datepicker-wrapper {
+  width: 200px;
+  font-size: 1rem;
+  padding: 10px 10px 10px 0;
+  border: none;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.search-input input::placeholder,
+.search-input .react-datepicker-wrapper input {
+  color: #999;
+}
+
+.search-input input:focus,
+.search-input .react-datepicker-wrapper input:focus {
+  outline: none;
+  border-bottom: 2px solid #f1677d;
+}
+
+.search-button {
+  margin-top: 0px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f1677d;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
