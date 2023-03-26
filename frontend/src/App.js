@@ -6,13 +6,14 @@ import {ItineraryEdit} from './components/ItineraryEdit/ItineraryEdit';
 import {Login} from './components/Login';
 import {Register} from './components/Register';
 import {TodoListForm} from './components/TodoListForm';
+import {HomePage} from './components/HomePage';
 
 
 function App() {
     return (
         <Router>
             <Routes>
-                <Route exact path='/' exact element={<Login/>} />
+                <Route exact path='/' exact element={<HomePage/>} />
                 <Route path='/list' element={<TodoListForm/>} />
                 <Route path='/edit' element={<ItineraryEdit/>} />
                 <Route path='/login' element={<Login/>} />
