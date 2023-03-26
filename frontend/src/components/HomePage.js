@@ -1,7 +1,6 @@
 import './homepage.css';
-import { FaBars } from 'react-icons/fa';
 import {Link} from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
@@ -29,6 +28,20 @@ export const HomePage = (props) => {
       console.log(endDate);
     };
 
+    const autoCompleteRef = useRef();
+    const inputRef = useRef();
+    const options = {
+      componentRestrictions: { country: "usa" },
+      fields: ['ALL'],
+      types: ["establishment"]
+    };
+    useEffect(() => {
+      autoCompleteRef.current = new window.google.maps.places.Autocomplete(
+      inputRef.current,
+      options
+      );
+    });
+
     return (
       <div className="search-container">
         <h1 className="search-title">Pick Your Next Trip</h1>
@@ -36,6 +49,7 @@ export const HomePage = (props) => {
           <div className="search-input destination">
             <label htmlFor="city-input">Destination</label><br/>
             <input
+              ref={inputRef} //autocomplete ref
               type="text"
               id="city-input"
               value={city}
