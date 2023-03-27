@@ -1,0 +1,2520 @@
+{
+    "_embedded": {
+        "events": [
+            {
+                "name": "Monster Energy Supercross",
+                "type": "event",
+                "id": "vvG1HZ98T0SK91",
+                "test": false,
+                "url": "https://www.ticketmaster.com/monster-energy-supercross-seattle-washington-03-25-2023/event/0F005D0FE4CD35CA",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2022-10-18T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2023-03-26T03:00:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2022-10-11T17:00:00Z",
+                            "endDateTime": "2022-10-18T06:59:00Z",
+                            "name": "Feld Preferred Presale"
+                        },
+                        {
+                            "startDateTime": "2022-10-13T17:00:00Z",
+                            "endDateTime": "2022-10-18T06:59:00Z",
+                            "name": "Ticketmaster Presale"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2023-03-25",
+                        "localTime": "18:30:00",
+                        "dateTime": "2023-03-26T01:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vA7k",
+                            "name": "Motorsports/Racing"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFt7",
+                            "name": "Motorsports/Racing"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "2515",
+                    "name": "FELD MOTORSPORTS",
+                    "description": "FELD MOTORSPORTS / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "2515",
+                        "name": "FELD MOTORSPORTS",
+                        "description": "FELD MOTORSPORTS / NTL / USA"
+                    }
+                ],
+                "info": "Monster Energy AMA Supercross is where the worlds highest-caliber and most competitive off-road motorcycle riders compete for the 2023 Supercross Championship. Over the course of a 17-round season, these fearless athletes seek to outperform each other on custom-designed tracks inside the most prestigious stadiums across the country. These riders race handlebar-to-handlebar on technical dirt tracks featuring tight-banked corners, fast straightaways and challenging rhythm sections crafted to test their skills and endurance. Top-tier riders Malcolm Stewart, Jason Anderson and Cooper Webb will be racing for the premier 450 class Championship currently held by Eli Tomac. In the 250 class, Hunter Lawrence, Jo Shimoda and Michael Mosiman will compete for the East or West Series title. In 2023, the Monster Energy Supercross riders will earn points toward the new and highly anticipated season-ending SuperMotocross World Championship. Visit SupercrossLive.com for more info.",
+                "pleaseNote": "This event will take place RAIN or SHINE. Please monitor our health and safety policies at LumenField.com for current information. Policies are subject to change. All fans that have purchased a Fan Fest ticket must have an event ticket accompanied for entry into the venue. The Fan fest opens at 12:00pm along with qualifying on the field -- weather dependent. Opening ceremonies begin at 6:30pm. All tickets are subject to availability. Prices & competitors are subject to change. All guests ages 2 & older are required to have a ticket. There are no refunds, exchanges, or upgrades. No costumes for guests 14 & older. The venue has a clear bag policy -- exception can be made for medically necessary items. Please visit the stadium guide at LumenField.com for additional information regarding this policy. The venue is now completely cashless. All concessions and other purchases only accept debit/credit as a method of payment.",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 20.0,
+                        "max": 110.0
+                    }
+                ],
+                "products": [
+                    {
+                        "name": "Monster Energy Supercross Fan Fest Pass: Preshow Event From 12pm - 6pm",
+                        "id": "vvG1HZ98XKToGQ",
+                        "url": "https://www.ticketmaster.com/monster-energy-supercross-fan-fest-pass-seattle-washington-03-25-2023/event/0F005D0F93FD131A",
+                        "type": "Special Entry",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nJ",
+                                    "name": "Upsell"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7v7lv",
+                                    "name": "Special Entry"
+                                },
+                                "family": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monster Energy Supercross – Official Souvenir Tag",
+                        "id": "vvG1HZ98Xf5sGJ",
+                        "url": "https://www.ticketmaster.com/monster-energy-supercross-official-souvenir-tag-seattle-washington-03-25-2023/event/0F005D0F942F1326",
+                        "type": "Upsell",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nJ",
+                                    "name": "Upsell"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAke",
+                                    "name": "Merchandise Voucher"
+                                },
+                                "family": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monster Energy Supercross: Souvenir Number 1 Plate",
+                        "id": "vvG1HZ98XffoGi",
+                        "url": "https://www.ticketmaster.com/monster-energy-supercross-souvenir-number-1-seattle-washington-03-25-2023/event/0F005D0F9451132C",
+                        "type": "Upsell",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nJ",
+                                    "name": "Upsell"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAke",
+                                    "name": "Merchandise Voucher"
+                                },
+                                "family": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Parking: Lumen Field Supercross",
+                        "id": "vvG1HZ9Kp12-KJ",
+                        "url": "https://www.ticketmaster.com/parking-lumen-field-supercross-seattle-washington-03-25-2023/event/0F005D358A3E14E6",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7vAva",
+                                    "name": "Parking"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAFe",
+                                    "name": "Regular"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0F005D0FE4CD35CA/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "There is an overall 8 ticket limit for this event."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1HZ98T0SK91?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171U8V?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZpZAEknnA?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Lumen Field",
+                            "type": "venue",
+                            "id": "KovZpZAEknnA",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/lumen-field-tickets-seattle/venue/123449",
+                            "locale": "en-us",
+                            "aliases": [
+                                "seahawk stadium",
+                                "seahawks stadium",
+                                "qwest field"
+                            ],
+                            "postalCode": "98134",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Seattle"
+                            },
+                            "state": {
+                                "name": "Washington",
+                                "stateCode": "WA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "800 Occidental Ave S"
+                            },
+                            "location": {
+                                "longitude": "-122.331607",
+                                "latitude": "47.595083"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Seattle Area",
+                                    "id": "42"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 385
+                                },
+                                {
+                                    "id": 391
+                                },
+                                {
+                                    "id": 418
+                                }
+                            ],
+                            "boxOfficeInfo": {
+                                "phoneNumberDetail": "Gameday: (206) 381-7848. SFC Customer Service: 877-657-4625",
+                                "openHoursDetail": "Open 3 hours prior to kickoff on gameday. Weekday hours will vary. Located in the Northwest corner of the Stadium. Seattle Sounders FC: 2 hours prior to match",
+                                "acceptedPaymentDetail": "Visa, MasterCard, American Express, Discover and Cash.",
+                                "willCallDetail": "Located at Northwest corner of Lumen Field. Opens 3 Hours prior to kickoff on gameday."
+                            },
+                            "parkingDetail": "Lumen Field manages three parking lots: the North Lot, Lumen Field Event Center Garage, and Union Station Garage. Gameday parking costs may vary. For further information please call the Seahawks ticket office at 1-888-NFL-HAWK (1-888-635-4295) or visit www.ipmseattle.com",
+                            "accessibleSeatingDetail": "There are disabled seats (wheelchair convertible) dispersed through all areas and price levels of Lumen Field. Disabled seating and access for all is fully compliant with the Americans with Disabilities Act, (ADA).",
+                            "generalInfo": {
+                                "generalRule": "Due to NFL policy, no soft-sided containers, coolers, or large bags (bigger than 12\" X 12\" X 12\") are permitted into Lumen Field for any event. Guests may bring in items in small, clear plastic bags. Event security is required to open all bags at the gates for a visual inspection before allowing guests' entry. Fans may bring food into the stadium on game days in clear plastic bags only, but no beverages will be allowed per NFL policy. Flash photography, video cameras and support tools (such as tripods, large lens, etc.) are not allowed. Smoking and tobacco use are prohibited in all areas of Lumen Field and Event Center. All fans must abide by the Fan Code of Conduct. For full rules and policies please visit www.seahawks.com.",
+                                "childRule": "Children under the age of 3 are free but must sit on adult's lap."
+                            },
+                            "upcomingEvents": {
+                                "_total": 41,
+                                "ticketmaster": 41,
+                                "_filtered": 0
+                            },
+                            "ada": {
+                                "adaPhones": "206-381-7848\n\nSounders FC Customer Service: 877-657-4625",
+                                "adaCustomCopy": "ADA seats are available",
+                                "adaHours": "Varies by event.    \n\nSeattle Sounders FC:\n2 hours prior to match\n    \nSeahawks:    \n3 hours prior to game.    \n    \nFor Concerts and other events:    \nGenerally 90 minutes prior to event.    \n    \nLumen Field & Lumen Field Field Event Center is located in the Northwest corner of the Stadium. Box Office hours vary by season. \n    \n    \n"
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZpZAEknnA?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Monster Energy Supercross",
+                            "type": "attraction",
+                            "id": "K8vZ9171U8V",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/monster-energy-supercross-tickets/artist/821673",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "http://www.youtube.com/supercrosslive/"
+                                    }
+                                ],
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/supercrosslive/"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/supercrosslive/"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/supercrosslive/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.supercrosslive.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/d15/357349e2-a523-4a8f-ade1-587584bdad15_1804851_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vA7k",
+                                        "name": "Motorsports/Racing"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFt7",
+                                        "name": "Motorsports/Racing"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 7,
+                                "tmr": 1,
+                                "ticketmaster": 6,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171U8V?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "2023 NCAA Women's Basketball Championship   Seattle Regional 4",
+                "type": "event",
+                "id": "vvG1HZ9K2BoJC5",
+                "test": false,
+                "url": "https://www.ticketmaster.com/2023-ncaa-womens-basketball-championship-seattle-seattle-washington-03-24-2023/event/0F005D33FA46638B",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2022-12-08T15:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2023-03-24T23:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2022-10-19T16:00:00Z",
+                            "endDateTime": "2023-03-24T23:30:00Z",
+                            "name": "Presale"
+                        },
+                        {
+                            "startDateTime": "2022-12-06T15:00:00Z",
+                            "endDateTime": "2022-12-08T07:59:00Z",
+                            "name": "Presale"
+                        },
+                        {
+                            "startDateTime": "2022-12-07T15:00:00Z",
+                            "endDateTime": "2022-12-08T07:45:00Z",
+                            "name": "Presale"
+                        },
+                        {
+                            "startDateTime": "2023-01-27T19:00:00Z",
+                            "endDateTime": "2023-03-24T23:30:00Z",
+                            "name": "Groupon Offer"
+                        },
+                        {
+                            "startDateTime": "2023-02-09T15:00:00Z",
+                            "endDateTime": "2023-02-15T07:45:00Z",
+                            "name": "Flash Sale"
+                        },
+                        {
+                            "startDateTime": "2023-02-01T15:00:00Z",
+                            "endDateTime": "2023-02-03T06:00:00Z",
+                            "name": "Seattle Flash Sale"
+                        },
+                        {
+                            "startDateTime": "2023-02-20T17:00:00Z",
+                            "endDateTime": "2023-03-24T23:30:00Z",
+                            "name": "Group Sales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2023-03-24",
+                        "localTime": "16:30:00",
+                        "dateTime": "2023-03-24T23:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAde",
+                            "name": "Basketball"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFJv",
+                            "name": "College"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "5891",
+                    "name": "NCAA CHAMPIONSHIP EVENT",
+                    "description": "NCAA CHAMPIONSHIP EVENT / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "5891",
+                        "name": "NCAA CHAMPIONSHIP EVENT",
+                        "description": "NCAA CHAMPIONSHIP EVENT / NTL / USA"
+                    }
+                ],
+                "info": "Children 3 and over require a ticket. Each day is a different session and requires a unique ticket.",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 23.0,
+                        "max": 63.0
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0F005D33FA46638B/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1HZ9K2BoJC5?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9175x50?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Ahkk?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Climate Pledge Arena",
+                            "type": "venue",
+                            "id": "KovZ917Ahkk",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/climate-pledge-arena-tickets-seattle/venue/123894",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22707v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "98109",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Seattle"
+                            },
+                            "state": {
+                                "name": "Washington",
+                                "stateCode": "WA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "334 1st Ave N"
+                            },
+                            "location": {
+                                "longitude": "-122.35401604",
+                                "latitude": "47.6221261"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Seattle Area",
+                                    "id": "42"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 385
+                                },
+                                {
+                                    "id": 391
+                                },
+                                {
+                                    "id": 418
+                                }
+                            ],
+                            "boxOfficeInfo": {
+                                "openHoursDetail": "The Box Office is open 3 hours prior to the start of an event, located at the southwest corner of the Climate Pledge Arena Grounds at 1st & Thomas. It is open 2 hours prior to an event on Day Of Show for will call and sales for that day's performance only. We are a paperless venue and tickets will be sent via text.",
+                                "acceptedPaymentDetail": "Apple Pay, Visa, AMX, MC, and Discover. We do not accept cash or checks.",
+                                "willCallDetail": "WILL CALL LOCATION: SW Corner of Climate Pledge Arena on 1st & Thomas. WILL CALL OPENS: 2 hours prior to event time. DOORS OPEN: 1 hour prior to event time (Varies by Event)."
+                            },
+                            "parkingDetail": "Off-site pay lots and street parking (early arrival is recommended). On-site parking garages include Arena garage, 1st Ave garage, & 5th Ave garage. https://climatepledgearena.com/transportation/",
+                            "accessibleSeatingDetail": "Parking - The 1st Ave N Garage is located 1 block south of Climate Pledge Arena. It is fully accessible with easy access to Climate Pledge Arena. Street parking & pay lots are also available but not as conveniently located. Drop Off - All Main Entrance doors to Climate Pledge Arena are accessible. The West entrance is the most convenient for drop off. 1st Ave N directly runs in front of the facility. Drop off location for the East entry is about 1/2 block away from Climate Pledge Arena at 2nd and Thomas. Entry - For most events, the West, South and East doors are open for entry.",
+                            "generalInfo": {
+                                "childRule": "Unless Otherwise noted, Children Under 3yrs are Free on Lap. All Ages allowed unless otherwise noted. For customer convenience, baby-changing stations are located in all restrooms at Climate Pledge Arena."
+                            },
+                            "upcomingEvents": {
+                                "_total": 79,
+                                "tmr": 1,
+                                "ticketmaster": 78,
+                                "_filtered": 0
+                            },
+                            "ada": {
+                                "adaPhones": "206-460-7825",
+                                "adaCustomCopy": "Accessible seating is available for guests with mobility disabilities and guests who require the accessible features provided in our accessible seating locations. When purchasing an accessible seat, up to 3 companion tickets may be purchased. Guest Services provides additional accommodations for guests as requested;  a full list of accommodations can be found at https://climatepledgearena.com/ticketing-guest-info . If you require interpretive services, please contact info@climatepledgearena.com or 206-460-7825 at least 7 days in advance of your event to reserve. ",
+                                "adaHours": "9am – 5pm Monday through Friday"
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Ahkk?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "NCAA Women's Basketball Championship",
+                            "type": "attraction",
+                            "id": "K8vZ9175x50",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/ncaa-womens-basketball-championship-tickets/artist/897102",
+                            "locale": "en-us",
+                            "aliases": [
+                                "ncaa womens basketball"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAde",
+                                        "name": "Basketball"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFJv",
+                                        "name": "College"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 14,
+                                "tmr": 3,
+                                "ticketmaster": 11,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9175x50?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "2023 NCAA Women's Basketball Championship   Seattle Regional 3",
+                "type": "event",
+                "id": "vvG1HZ9K2B3pCu",
+                "test": false,
+                "url": "https://www.ticketmaster.com/2023-ncaa-womens-basketball-championship-seattle-seattle-washington-03-25-2023/event/0F005D33FA49638D",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2022-12-08T15:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2023-03-25T20:00:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2022-10-19T16:00:00Z",
+                            "endDateTime": "2023-03-24T23:30:00Z",
+                            "name": "Resale"
+                        },
+                        {
+                            "startDateTime": "2022-12-06T15:00:00Z",
+                            "endDateTime": "2022-12-08T07:59:00Z",
+                            "name": "Presale"
+                        },
+                        {
+                            "startDateTime": "2022-12-07T15:00:00Z",
+                            "endDateTime": "2022-12-08T07:45:00Z",
+                            "name": "Presale"
+                        },
+                        {
+                            "startDateTime": "2023-02-09T15:00:00Z",
+                            "endDateTime": "2023-02-15T07:45:00Z",
+                            "name": "Flash Sale"
+                        },
+                        {
+                            "startDateTime": "2023-02-01T15:00:00Z",
+                            "endDateTime": "2023-02-03T06:00:00Z",
+                            "name": "Seattle Flash Sale"
+                        },
+                        {
+                            "startDateTime": "2023-02-20T17:00:00Z",
+                            "endDateTime": "2023-03-25T20:00:00Z",
+                            "name": "Group Sales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2023-03-25",
+                        "localTime": "13:00:00",
+                        "dateTime": "2023-03-25T20:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAde",
+                            "name": "Basketball"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFJv",
+                            "name": "College"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "5891",
+                    "name": "NCAA CHAMPIONSHIP EVENT",
+                    "description": "NCAA CHAMPIONSHIP EVENT / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "5891",
+                        "name": "NCAA CHAMPIONSHIP EVENT",
+                        "description": "NCAA CHAMPIONSHIP EVENT / NTL / USA"
+                    }
+                ],
+                "info": "Children 3 and over require a ticket. Each day is a different session and requires a unique ticket.",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 23.0,
+                        "max": 63.0
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0F005D33FA49638D/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1HZ9K2B3pCu?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9175x50?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Ahkk?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Climate Pledge Arena",
+                            "type": "venue",
+                            "id": "KovZ917Ahkk",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/climate-pledge-arena-tickets-seattle/venue/123894",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22707v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "98109",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Seattle"
+                            },
+                            "state": {
+                                "name": "Washington",
+                                "stateCode": "WA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "334 1st Ave N"
+                            },
+                            "location": {
+                                "longitude": "-122.35401604",
+                                "latitude": "47.6221261"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Seattle Area",
+                                    "id": "42"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 385
+                                },
+                                {
+                                    "id": 391
+                                },
+                                {
+                                    "id": 418
+                                }
+                            ],
+                            "boxOfficeInfo": {
+                                "openHoursDetail": "The Box Office is open 3 hours prior to the start of an event, located at the southwest corner of the Climate Pledge Arena Grounds at 1st & Thomas. It is open 2 hours prior to an event on Day Of Show for will call and sales for that day's performance only. We are a paperless venue and tickets will be sent via text.",
+                                "acceptedPaymentDetail": "Apple Pay, Visa, AMX, MC, and Discover. We do not accept cash or checks.",
+                                "willCallDetail": "WILL CALL LOCATION: SW Corner of Climate Pledge Arena on 1st & Thomas. WILL CALL OPENS: 2 hours prior to event time. DOORS OPEN: 1 hour prior to event time (Varies by Event)."
+                            },
+                            "parkingDetail": "Off-site pay lots and street parking (early arrival is recommended). On-site parking garages include Arena garage, 1st Ave garage, & 5th Ave garage. https://climatepledgearena.com/transportation/",
+                            "accessibleSeatingDetail": "Parking - The 1st Ave N Garage is located 1 block south of Climate Pledge Arena. It is fully accessible with easy access to Climate Pledge Arena. Street parking & pay lots are also available but not as conveniently located. Drop Off - All Main Entrance doors to Climate Pledge Arena are accessible. The West entrance is the most convenient for drop off. 1st Ave N directly runs in front of the facility. Drop off location for the East entry is about 1/2 block away from Climate Pledge Arena at 2nd and Thomas. Entry - For most events, the West, South and East doors are open for entry.",
+                            "generalInfo": {
+                                "childRule": "Unless Otherwise noted, Children Under 3yrs are Free on Lap. All Ages allowed unless otherwise noted. For customer convenience, baby-changing stations are located in all restrooms at Climate Pledge Arena."
+                            },
+                            "upcomingEvents": {
+                                "_total": 77,
+                                "tmr": 1,
+                                "ticketmaster": 76,
+                                "_filtered": 0
+                            },
+                            "ada": {
+                                "adaPhones": "206-460-7825",
+                                "adaCustomCopy": "Accessible seating is available for guests with mobility disabilities and guests who require the accessible features provided in our accessible seating locations. When purchasing an accessible seat, up to 3 companion tickets may be purchased. Guest Services provides additional accommodations for guests as requested;  a full list of accommodations can be found at https://climatepledgearena.com/ticketing-guest-info . If you require interpretive services, please contact info@climatepledgearena.com or 206-460-7825 at least 7 days in advance of your event to reserve. ",
+                                "adaHours": "9am – 5pm Monday through Friday"
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Ahkk?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "NCAA Women's Basketball Championship",
+                            "type": "attraction",
+                            "id": "K8vZ9175x50",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/ncaa-womens-basketball-championship-tickets/artist/897102",
+                            "locale": "en-us",
+                            "aliases": [
+                                "ncaa womens basketball"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/29b/6676eb6f-a294-436f-b0d4-8777c92d929b_1809101_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAde",
+                                        "name": "Basketball"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFJv",
+                                        "name": "College"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 14,
+                                "tmr": 3,
+                                "ticketmaster": 11,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9175x50?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Kevin James: The Irregardless Tour",
+                "type": "event",
+                "id": "vvG1HZ9pn4PwkO",
+                "test": false,
+                "url": "https://www.ticketmaster.com/kevin-james-the-irregardless-tour-seattle-washington-03-24-2023/event/0F005D6A959721A0",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_SOURCE",
+                        "width": 2426,
+                        "height": 1365,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2022-11-18T18:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2023-03-25T03:00:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2022-11-16T18:00:00Z",
+                            "endDateTime": "2022-11-18T08:00:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2022-11-16T18:00:00Z",
+                            "endDateTime": "2022-11-18T08:00:00Z",
+                            "name": "Live Nation Presale"
+                        },
+                        {
+                            "startDateTime": "2022-11-16T18:00:00Z",
+                            "endDateTime": "2022-11-18T08:00:00Z",
+                            "name": "Local Presale"
+                        },
+                        {
+                            "startDateTime": "2022-11-16T18:00:00Z",
+                            "endDateTime": "2022-11-18T07:59:00Z",
+                            "name": "Official Platinum Presale"
+                        },
+                        {
+                            "startDateTime": "2022-11-18T18:00:00Z",
+                            "endDateTime": "2023-03-25T03:00:00Z",
+                            "name": "Official Platinum"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2023-03-24",
+                        "localTime": "20:00:00",
+                        "dateTime": "2023-03-25T03:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7na",
+                            "name": "Arts & Theatre"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAe1",
+                            "name": "Comedy"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vF17",
+                            "name": "Comedy"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "5974",
+                    "name": "SEATTLE THEATRE GROUP",
+                    "description": "SEATTLE THEATRE GROUP / LOC / SEATTLE"
+                },
+                "promoters": [
+                    {
+                        "id": "5974",
+                        "name": "SEATTLE THEATRE GROUP",
+                        "description": "SEATTLE THEATRE GROUP / LOC / SEATTLE"
+                    },
+                    {
+                        "id": "653",
+                        "name": "LIVE NATION MUSIC",
+                        "description": "LIVE NATION MUSIC / NTL / USA"
+                    }
+                ],
+                "info": "The Paramount Theatre is located in downtown Seattle at 911 Pine Street, Seattle, WA 98101. There is an overall 8 ticket limit per patron. Patrons exceeding the ticket limit will have their orders canceled at the venue's discretion. All sales are final. No refunds or exchanges. Mobile barcodes delayed until 4 days prior to event. Venue reserves the right to change delivery methods. Unless otherwise noted, each person must have a ticket regardless of age. No babies in arms. There is no elevator. Stairs only to the balcony level. STG strongly encourages and recommends when attending a performance that you wear a mask. We reserve the right to require health and safety protocols for all performances.",
+                "pleaseNote": "Metal detectors & bag search at door. Arrive early. No weapons. www.stgpresents.org/about/safety Each accessible seat houses an armless freestanding chair for patrons with mobility impairments and their companions. The freestanding chair can be removed to accommodate a wheelchair.",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 40.5,
+                        "max": 95.5
+                    }
+                ],
+                "products": [
+                    {
+                        "name": "Paramount Theatre Parking",
+                        "id": "vvG1HZ9pI7nPhm",
+                        "url": "https://www.ticketmaster.com/paramount-theatre-parking-seattle-washington-03-24-2023/event/0F005D6A04AA56EE",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7vAva",
+                                    "name": "Parking"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAFe",
+                                    "name": "Regular"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0F005D6A959721A0/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 8
+                },
+                "ticketLimit": {
+                    "info": "There is an overall 6 ticket limit for this event."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1HZ9pn4PwkO?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171YK0?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZpZAFkvEA?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Paramount Theatre",
+                            "type": "venue",
+                            "id": "KovZpZAFkvEA",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/paramount-theatre-tickets-seattle/venue/122980",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/6553v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "98101",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Seattle"
+                            },
+                            "state": {
+                                "name": "Washington",
+                                "stateCode": "WA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "911 Pine St"
+                            },
+                            "location": {
+                                "longitude": "-122.3319103",
+                                "latitude": "47.6135664"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Seattle Area",
+                                    "id": "42"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 385
+                                },
+                                {
+                                    "id": 391
+                                },
+                                {
+                                    "id": 418
+                                }
+                            ],
+                            "boxOfficeInfo": {
+                                "phoneNumberDetail": "(206) 682-1414",
+                                "openHoursDetail": "Monday-Friday 10:00am - 6:00pm.",
+                                "acceptedPaymentDetail": "The box office accepts Visa, MasterCard, American Express and Cash.",
+                                "willCallDetail": "Tickets held for willcall can be picked up on the day of the performance usually beginning 1 to 2 hours prior to showtime. The customer must present a valid form of identification, the actual credit card, and the confirmation number."
+                            },
+                            "parkingDetail": "Off-site street parking, and pay lots.",
+                            "generalInfo": {
+                                "generalRule": "No recording devices are allowed. Babes in arms not permitted.",
+                                "childRule": "Children are welcome at most events, but parents/guardians are discouraged from bringing children under 4 years of age unless the event is specifically geared to a child audience. Every patron must have a ticket regardless of age. Babes in arms not permitted."
+                            },
+                            "upcomingEvents": {
+                                "_total": 49,
+                                "ticketmaster": 49,
+                                "_filtered": 0
+                            },
+                            "ada": {
+                                "adaPhones": "800-877-7575",
+                                "adaCustomCopy": "Reserved seating events - Accessible seats will appear on the map with the universal ADA symbol.\n\nGeneral admission events - Parties who require accessible seating may simply purchase the best available ticket online. When you arrive at the show, you will have priority access to accessible sections. Ushers will be available to assist. If you prefer to purchase by phone, please use the number below.",
+                                "adaHours": "24/7"
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZpZAFkvEA?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Kevin James",
+                            "type": "attraction",
+                            "id": "K8vZ9171YK0",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/kevin-james-tickets/artist/703068",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_SOURCE",
+                                    "width": 2426,
+                                    "height": 1365,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/037/4eb31c56-261b-4d59-b8fa-05af53d66037_1839721_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7na",
+                                        "name": "Arts & Theatre"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAe1",
+                                        "name": "Comedy"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vF17",
+                                        "name": "Comedy"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 39,
+                                "tmr": 8,
+                                "ticketmaster": 31,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171YK0?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Unknown Mortal Orchestra",
+                "type": "event",
+                "id": "vvG1HZ9fKCLwUw",
+                "test": false,
+                "url": "https://www.ticketmaster.com/unknown-mortal-orchestra-seattle-washington-03-25-2023/event/0F005D44CE7F2DB2",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2022-10-28T17:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2023-03-26T03:00:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2022-10-26T17:00:00Z",
+                            "endDateTime": "2022-10-28T05:00:00Z",
+                            "name": "Artist Presale"
+                        },
+                        {
+                            "startDateTime": "2022-10-26T17:00:00Z",
+                            "endDateTime": "2022-10-28T05:00:00Z",
+                            "name": "Spotify Presale"
+                        },
+                        {
+                            "startDateTime": "2022-10-27T17:00:00Z",
+                            "endDateTime": "2022-10-28T05:00:00Z",
+                            "name": "Local/Media Presales"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2023-03-25",
+                        "localTime": "20:00:00",
+                        "dateTime": "2023-03-26T03:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nJ",
+                            "name": "Music"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAeA",
+                            "name": "Rock"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7v6F1",
+                            "name": "Pop"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7nI",
+                            "name": "Undefined"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7v7lJ",
+                            "name": "Undefined"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "5974",
+                    "name": "SEATTLE THEATRE GROUP",
+                    "description": "SEATTLE THEATRE GROUP / LOC / SEATTLE"
+                },
+                "promoters": [
+                    {
+                        "id": "5974",
+                        "name": "SEATTLE THEATRE GROUP",
+                        "description": "SEATTLE THEATRE GROUP / LOC / SEATTLE"
+                    }
+                ],
+                "info": "STG strongly encourages and recommends when attending a performance that you wear a mask. We reserve the right to require health and safety protocols for all performances. https://www.stgpresents.org/health 8 ticket limit per patron. Patrons exceeding the ticket limit will have their orders canceled at the venue's discretion. All sales are final. No refunds or exchanges. Unless otherwise noted, each person must have a ticket regardless of age. No babies in arms. Mobile barcodes delayed until 4 days prior to event. Venue reserves the right to change delivery methods. There is no elevator. Stairs & ramps only to the balcony level. Parties who require accessible seating will have priority to accessible seats. Ushers are available to assist when you arrive.",
+                "pleaseNote": "STG strongly encourages and recommends when attending a performance that you wear a mask. We reserve the right to require health and safety protocols for all performances. https://www.stgpresents.org/health Metal detectors & bag search at door. Arrive early. No weapons. www.stgpresents.org/about/safety",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 26.5,
+                        "max": 31.5
+                    }
+                ],
+                "products": [
+                    {
+                        "name": "Moore Club Lounge Pass",
+                        "id": "vvG1HZ9NKEiKcz",
+                        "url": "https://www.ticketmaster.com/moore-club-lounge-pass-seattle-washington-03-25-2023/event/0F005E34E7B13B78",
+                        "type": "Upsell",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nJ",
+                                    "name": "Upsell"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7v7lv",
+                                    "name": "Special Entry"
+                                },
+                                "family": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moore Theatre Parking",
+                        "id": "vvG1HZ9fKYpdIC",
+                        "url": "https://www.ticketmaster.com/moore-theatre-parking-seattle-washington-03-25-2023/event/0F005D44F0583A0E",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7vAva",
+                                    "name": "Parking"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAFe",
+                                    "name": "Regular"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0F005D44CE7F2DB2/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 8
+                },
+                "ticketLimit": {
+                    "info": "There is an overall 8 ticket limit for this event."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "ticketing": {
+                    "safeTix": {
+                        "enabled": true
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1HZ9fKCLwUw?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ917CZ-V?locale=en-us"
+                        },
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ917h5Wf?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZpZA1vFJA?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Moore Theatre",
+                            "type": "venue",
+                            "id": "KovZpZA1vFJA",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/moore-theatre-tickets-seattle/venue/122968",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/6501v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "98101",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Seattle"
+                            },
+                            "state": {
+                                "name": "Washington",
+                                "stateCode": "WA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "1932 2nd Ave"
+                            },
+                            "location": {
+                                "longitude": "-122.359344",
+                                "latitude": "47.6532927"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Seattle Area",
+                                    "id": "42"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 385
+                                },
+                                {
+                                    "id": 391
+                                },
+                                {
+                                    "id": 418
+                                }
+                            ],
+                            "boxOfficeInfo": {
+                                "phoneNumberDetail": "(206) 443-1744",
+                                "openHoursDetail": "The box office usually opens 1 hour prior to showtime.",
+                                "acceptedPaymentDetail": "The box office accepts Cash, Visa, MC, and AMX.",
+                                "willCallDetail": "Tickets held for will call can be picked up on the day of the performance usually beginning 1 to 2 hours prior to showtime. The customer must present a valid form of identification, the actual credit card, and the confirmation number."
+                            },
+                            "parkingDetail": "Off-site pay lots and street parking.",
+                            "generalInfo": {
+                                "generalRule": "No recording devices allowed.",
+                                "childRule": "Children are welcome at most events, but parents/guardians are discouraged from bringing children under 4 years of age unless the event is specifically geared to a child audience. Every patron must have a ticket regardless of age. Babes in arms not permitted."
+                            },
+                            "upcomingEvents": {
+                                "_total": 44,
+                                "ticketmaster": 44,
+                                "_filtered": 0
+                            },
+                            "ada": {
+                                "adaPhones": "800-877-7575",
+                                "adaCustomCopy": "Reserved seating events - Accessible seats will appear on the map with the universal ADA symbol.\n\nGeneral admission events - Parties who require accessible seating may simply purchase the best available ticket online. When you arrive at the show, you will have priority access to accessible sections. Ushers will be available to assist. If you prefer to purchase by phone, please use the number below.",
+                                "adaHours": "24/7"
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZpZA1vFJA?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Unknown Mortal Orchestra",
+                            "type": "attraction",
+                            "id": "K8vZ917CZ-V",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/unknown-mortal-orchestra-tickets/artist/1553449",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "youtube": [
+                                    {
+                                        "url": "http://www.youtube.com/user/UMOVEVO"
+                                    }
+                                ],
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/UMO"
+                                    }
+                                ],
+                                "itunes": [
+                                    {
+                                        "url": "https://music.apple.com/us/artist/unknown-mortal-orchestra/437580308"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/unknownmortalorchestra"
+                                    }
+                                ],
+                                "spotify": [
+                                    {
+                                        "url": "https://open.spotify.com/artist/1LeVJ5GPeYDOVUjxx1y7Rp?autoplay=true"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "http://instagram.com/unknownmortalorchestra"
+                                    }
+                                ],
+                                "musicbrainz": [
+                                    {
+                                        "id": "e2305342-0bde-4a2c-aed0-4b88694834de"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "http://unknownmortalorchestra.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/89c/d66a85b7-472c-4932-92c3-a711bacef89c_614621_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAeA",
+                                        "name": "Rock"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7v6F1",
+                                        "name": "Pop"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7nI",
+                                        "name": "Undefined"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7v7lJ",
+                                        "name": "Undefined"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 31,
+                                "tmr": 9,
+                                "mfx-de": 2,
+                                "ticketweb": 1,
+                                "ticketmaster": 19,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ917CZ-V?locale=en-us"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Amulets",
+                            "type": "attraction",
+                            "id": "K8vZ917h5Wf",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/amulets-tickets/artist/2980874",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": true
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": true
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nJ",
+                                        "name": "Music"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAvF",
+                                        "name": "Dance/Electronic"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vA1E",
+                                        "name": "Dance/Electronic"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA76",
+                                        "name": "Group"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 6,
+                                "ticketmaster": 6,
+                                "_filtered": 0
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ917h5Wf?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "/discovery/v2/events.json?startDateTime=2023-03-24T14%3A00%3A00Z&city=Seattle&stateCode=WA&endDateTime=2023-03-26T14%3A00%3A00Z&page=0&size=5"
+        },
+        "self": {
+            "href": "/discovery/v2/events.json?startDateTime=2023-03-24T14%3A00%3A00Z&size=5&city=Seattle&stateCode=WA&endDateTime=2023-03-26T14%3A00%3A00Z"
+        },
+        "next": {
+            "href": "/discovery/v2/events.json?startDateTime=2023-03-24T14%3A00%3A00Z&city=Seattle&stateCode=WA&endDateTime=2023-03-26T14%3A00%3A00Z&page=1&size=5"
+        },
+        "last": {
+            "href": "/discovery/v2/events.json?startDateTime=2023-03-24T14%3A00%3A00Z&city=Seattle&stateCode=WA&endDateTime=2023-03-26T14%3A00%3A00Z&page=8&size=5"
+        }
+    },
+    "page": {
+        "size": 5,
+        "totalElements": 41,
+        "totalPages": 9,
+        "number": 0
+    }
+}
