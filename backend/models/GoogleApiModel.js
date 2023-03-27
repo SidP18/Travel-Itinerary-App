@@ -7,11 +7,15 @@ var placesListData = {};
 
 function PlacesModel(props) {
 
-    const [loc, setLoc] = useState({});
+  const [loc, setLoc] = useState({});
+
+  function getLoc(placeName){
+    setLoc({ lat: 47.6256, lng: -122.3344 });
+  }
 
   function initMap() {
     // Create the map.
-    setLoc({ lat: 47.6256, lng: -122.3344 });
+    getLoc(placeName);
     const map = new window.google.maps.Map(document.getElementById("map"), {
       center: loc,
       zoom: 17,
@@ -23,7 +27,7 @@ function PlacesModel(props) {
   function getPlaces(map){
     const service = new window.google.maps.places.PlacesService(map);
 
-    var request = { location: seatte, radius: 500, type: "restaurant" };
+    var request = { location: loc, radius: 500, type: "restaurant" };
     var placesList = {};
 
     service.textSearch(
