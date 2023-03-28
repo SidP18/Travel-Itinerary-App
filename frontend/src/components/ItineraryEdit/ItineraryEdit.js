@@ -4,13 +4,40 @@ import {ActivityCard} from "./activityCard";
 import {sample_activities} from "../../sample_data/sample_activities.js";
 import { FaBars } from 'react-icons/fa';
 import {Link} from 'react-router-dom';
+import data from '../../sample_data/placesdata.json';
 
 export const ItineraryEdit = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
+    let restaurantList = [];
+    let restaurantIndicator = 0;
+
     const handleDropdown = () => {
         setIsOpen(!isOpen);
     }
+
+    const disliked = () => {
+        restaurantIndicator++;
+        setRestaurant(<ActivityCard
+                         category={data.requestType}
+                         image={restaurantList[restaurantIndicator].url}
+                         name={restaurantList[restaurantIndicator].name}
+                         description={restaurantList[restaurantIndicator].formatted_address}
+                         disliked = {disliked}
+                     />);
+    }
+
+    for (var key in data.places) {
+        restaurantList.push(data.places[key]);
+    }
+
+    const [restaurant, setRestaurant] = useState(<ActivityCard
+                                                       category={data.requestType}
+                                                       image={restaurantList[restaurantIndicator].url}
+                                                       name={restaurantList[restaurantIndicator].name}
+                                                       description={restaurantList[restaurantIndicator].formatted_address}
+                                                       disliked = {disliked}
+                                                   />);
 
     return (
         <div className="itinerary-edit-page">
@@ -34,16 +61,9 @@ export const ItineraryEdit = (props) => {
               </div>
             </nav>
             <div className="edit-list">
-                {sample_activities.map(function(activity) {
-                    return(
-                        <ActivityCard
-                            category={activity.category}
-                            name={activity.name}
-                            image={activity.image}
-                            description={activity.description}
-                        />
-                    );
-                })}
+                {
+                    restaurant
+                }
             </div>
             <button className="finalizeButton">Finalize</button>
         </div>

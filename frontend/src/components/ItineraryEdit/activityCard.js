@@ -3,13 +3,13 @@ import './itinerary-edit.css';
 import {BsFillHandThumbsDownFill} from 'react-icons/bs';
 import {BsFillHandThumbsUpFill} from 'react-icons/bs';
 
-export const ActivityCard = ({ category, image, name, description }) => {
+export const ActivityCard = ({ category, image, name, description,disliked }) => {
     return (
         <div style={styles.container}>
           <div style={styles.categoryContainer}>
             <p style={styles.category}>{category}</p>
             <button className="activityActionButton"><BsFillHandThumbsUpFill/></button>
-            <button className="activityActionButton"><BsFillHandThumbsDownFill/></button>
+            <button className="activityActionButton" onClick={disliked}><BsFillHandThumbsDownFill/></button>
           </div>
           <div style={styles.imageContainer}>
             <img style={styles.image} src={image} aria-hidden alt={name} />

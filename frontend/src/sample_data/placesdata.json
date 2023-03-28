@@ -1,0 +1,247 @@
+
+
+{
+    "requestType": "restaurant",
+    "places": {
+        "Place0": {
+            "name": "Denny Lodge",
+            "id": "ChIJW9_QXt8VkFQRjxIfTNLIlPc",
+            "position": {
+                "lat": 47.6237776,
+                "lng": -122.335088
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "501 Fairview Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.5
+        },
+        "Place1": {
+            "name": "Bar Harbor",
+            "id": "ChIJIXGeJDcVkFQRoS1IiN9C3TY",
+            "position": {
+                "lat": 47.622485,
+                "lng": -122.3338633
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "400 Fairview Ave N #105, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.5
+        },
+        "Place2": {
+            "name": "Sizzle&Crunch SLU",
+            "id": "ChIJR64lnCAVkFQRqGLApG7WTqw",
+            "position": {
+                "lat": 47.6239414,
+                "lng": -122.3391927
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "500 9th Ave N ste 150, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.5
+        },
+        "Place3": {
+            "name": "La Palmera Mexican Restaurant",
+            "id": "ChIJXarlsTkVkFQRXVFAPGOq3nU",
+            "position": {
+                "lat": 47.6241627,
+                "lng": -122.3395719
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "901 Mercer St, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place4": {
+            "name": "Duke's Seafood",
+            "id": "ChIJMY6CBjsVkFQRFGfv6bY3WV0",
+            "position": {
+                "lat": 47.6298609,
+                "lng": -122.3304216
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "1111 Fairview Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.4
+        },
+        "Place5": {
+            "name": "LOCAL Public Eatery Terry Ave",
+            "id": "ChIJLYDanzcVkFQRtGt9wJI_AnQ",
+            "position": {
+                "lat": 47.6221942,
+                "lng": -122.3365534
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "404 Terry Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place6": {
+            "name": "Buca di Beppo Italian Restaurant",
+            "id": "ChIJqcEWDzkVkFQRApc1W87ZbEE",
+            "position": {
+                "lat": 47.6259415,
+                "lng": -122.3390615
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "701 Westlake Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.1
+        },
+        "Place7": {
+            "name": "Cactus South Lake Union",
+            "id": "ChIJCz0voDcVkFQRH2R4cNL9j8E",
+            "position": {
+                "lat": 47.6217948,
+                "lng": -122.3369462
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "350 Terry Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.4
+        },
+        "Place8": {
+            "name": "Daniel's Broiler",
+            "id": "ChIJ_68tTToVkFQR-MqoONjRaUA",
+            "position": {
+                "lat": 47.62672999999999,
+                "lng": -122.3347304
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "809 Fairview Pl N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place9": {
+            "name": "The Berliner Döner Kebab",
+            "id": "ChIJG0hRgTcVkFQRbHwXSGys9wk",
+            "position": {
+                "lat": 47.6226649,
+                "lng": -122.3381332
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "428 Westlake Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.4
+        },
+        "Place10": {
+            "name": "re:public",
+            "id": "ChIJZ7vyKjgVkFQR5znRuHMGFxg",
+            "position": {
+                "lat": 47.6229136,
+                "lng": -122.3386539
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "429 Westlake Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.2
+        },
+        "Place11": {
+            "name": "Ba Bar South Lake Union",
+            "id": "ChIJ-eTKYTcVkFQRCflfu7QDS_s",
+            "position": {
+                "lat": 47.62338279999999,
+                "lng": -122.3369651
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "500 Terry Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place12": {
+            "name": "Noodle/Bar",
+            "id": "ChIJvQquFugVkFQRwl1XPhWCkR4",
+            "position": {
+                "lat": 47.622477,
+                "lng": -122.3302537
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "422 Yale Ave N Suite A, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.5
+        },
+        "Place13": {
+            "name": "The White Swan Public House",
+            "id": "ChIJkz9ZtSQVkFQRLJ8yVdXAD58",
+            "position": {
+                "lat": 47.629124,
+                "lng": -122.33172
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "1001 Fairview Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place14": {
+            "name": "Kathmandu MomoCha",
+            "id": "ChIJrWstfk0RkFQRtQTSqiy37AQ",
+            "position": {
+                "lat": 47.6238049,
+                "lng": -122.3369837
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "520 Terry Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place15": {
+            "name": "mbar",
+            "id": "ChIJc_jpMDcVkFQR0lmokXEdXDI",
+            "position": {
+                "lat": 47.6227883,
+                "lng": -122.3340388
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "400 Fairview Ave N 14th Floor, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place16": {
+            "name": "El Grito Taqueria",
+            "id": "ChIJiZ837jYVkFQRREqaPuHcEqg",
+            "position": {
+                "lat": 47.6206914,
+                "lng": -122.3339881
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "234 Fairview Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.3
+        },
+        "Place17": {
+            "name": "Maria Sabina Mexican Restaurant & Bar",
+            "id": "ChIJMaw2QUwVkFQR4MPaPS7YqCM",
+            "position": {
+                "lat": 47.626102,
+                "lng": -122.3391079
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "711 Westlake Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.7
+        },
+        "Place18": {
+            "name": "Tacos Chukis",
+            "id": "ChIJi5uWLzkVkFQRRW4VgEmdmVE",
+            "position": {
+                "lat": 47.6269942,
+                "lng": -122.3421213
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "832 Dexter Ave N, Seattle, WA 98109",
+            "business_status": "OPERATIONAL",
+            "rating": 4.6
+        },
+        "Place19": {
+            "name": "Harry's Fine Foods",
+            "id": "ChIJ326YLzAVkFQRIG2AIJa83-Q",
+            "position": {
+                "lat": 47.6244057,
+                "lng": -122.3267513
+            },
+            "url": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "formatted_address": "601 Bellevue Ave E, Seattle, WA 98102",
+            "business_status": "OPERATIONAL",
+            "rating": 4.6
+        }
+    }
+}

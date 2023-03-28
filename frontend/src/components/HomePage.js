@@ -64,8 +64,11 @@ export const HomePage = (props) => {
                 showIcon
                 id="start-date-input"
                 selected={startDate}
+                selectsStart
+                startDate={startDate}
+                endDate={endDate}
                 onChange={handleStartDateChange}
-                dateFormat="M/d/yyyy"
+                dateFormat="MM/d/yyyy"
                 placeholderText="Select a date"
               />
             </div>
@@ -75,8 +78,12 @@ export const HomePage = (props) => {
                 showIcon
                 id="end-date-input"
                 selected={endDate}
+                selectsEnd
+                startDate={startDate}
+                endDate={endDate}
+                minDate={startDate}
                 onChange={handleEndDateChange}
-                dateFormat="M/d/yyyy"
+                dateFormat="MM/d/yyyy"
                 placeholderText="Select a date"
               />
             </div>
