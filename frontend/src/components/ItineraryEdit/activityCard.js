@@ -32,7 +32,8 @@ const styles = {
     borderRadius: '8px',
     backgroundColor: '#FFFFFF',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
-    margin: '1rem'
+    margin: '1rem auto 1rem auto',
+
   },
   categoryContainer: {
     flex: 1,

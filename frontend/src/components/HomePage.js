@@ -54,7 +54,7 @@ export const HomePage = (props) => {
               id="city-input"
               value={city}
               onChange={handleCityChange}
-              placeholder="e.g. Tokyo, Japan"
+              placeholder="e.g. Sheraton Columbus Hotel at Capitol Square"
             />
           </div>
           <div className="date-picker-container">
