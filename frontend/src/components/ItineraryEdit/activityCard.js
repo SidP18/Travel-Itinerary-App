@@ -9,7 +9,7 @@ export const ActivityCard = ({ category, image, name, description, liked, dislik
     return (
         <div style={styles.container}>
           <div style={styles.categoryContainer}>
-            <button className="activityActionButton" onClick={liked}><BsCheckCircleFill fillColor="blue"/></button>
+            <button className="activityActionButton" onClick={liked}><BsCheckCircleFill/></button>
             <button className="activityActionButton" onClick={disliked}><BsXCircleFill/></button>
           </div>
           <div style={styles.imageContainer}>

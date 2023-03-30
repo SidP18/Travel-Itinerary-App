@@ -101,7 +101,7 @@
     border: none;
     cursor: pointer;
     transform: scale(3);
-    filter: hue-rotate(10deg) saturate(100) brightness(1) !important;
+
 }
 
 .list-label {
