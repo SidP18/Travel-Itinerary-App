@@ -1,5 +1,4 @@
 .itinerary-edit-page {
-    background-color: #E5E5E5;
     padding-bottom: 10rem;
 }
 
@@ -10,10 +9,12 @@
 }
 
 .edit-list{
-    margin: 1rem;
+    margin: 1rem auto 1rem auto;
     padding: 2rem;
     background-color: #14213D;
     border-radius: 12px;
+    width: 80%;
+    max-width: 870px;
 }
 
 .activity-card {
@@ -95,7 +96,14 @@
 }
 
 .activityActionButton {
+    margin: 1rem;
     background: none;
     border: none;
     cursor: pointer;
+    transform: scale(3);
+
+}
+
+.list-label {
+    color: white;
 }
