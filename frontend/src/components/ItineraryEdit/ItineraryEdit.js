@@ -1,69 +1,58 @@
 import React, { useState } from "react";
 import './itinerary-edit.css';
 import {ActivityCard} from "./activityCard";
-import {sample_activities} from "../../sample_data/sample_activities.js";
-import { FaBars } from 'react-icons/fa';
-import {Link} from 'react-router-dom';
+import {NavBar} from '../NavBar';
 import data from '../../sample_data/placesdata.json';
 
 export const ItineraryEdit = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [savedRestaurants, setSavedRestaurants] = useState([]);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     let restaurantList = [];
-    let restaurantIndicator = 0;
-
-    const handleDropdown = () => {
-        setIsOpen(!isOpen);
-    }
-
-    const disliked = () => {
-        restaurantIndicator++;
-        setRestaurant(<ActivityCard
-                         category={data.requestType}
-                         image={restaurantList[restaurantIndicator].url}
-                         name={restaurantList[restaurantIndicator].name}
-                         description={restaurantList[restaurantIndicator].formatted_address}
-                         disliked = {disliked}
-                     />);
-    }
-
     for (var key in data.places) {
         restaurantList.push(data.places[key]);
     }
 
-    const [restaurant, setRestaurant] = useState(<ActivityCard
-                                                       category={data.requestType}
-                                                       image={restaurantList[restaurantIndicator].url}
-                                                       name={restaurantList[restaurantIndicator].name}
-                                                       description={restaurantList[restaurantIndicator].formatted_address}
-                                                       disliked = {disliked}
-                                                   />);
+    const liked = () => {
+        if (savedRestaurants.length < 3) {
+            setSavedRestaurants([...savedRestaurants, restaurantList[currentIndex]]);
+        }
+        setCurrentIndex(currentIndex + 1);
+    };
+
+    const disliked = () => {
+        setCurrentIndex(currentIndex + 1);
+    };
 
     return (
         <div className="itinerary-edit-page">
-            <nav className="navigation-bar">
-              <div className="left-side">
-                <h1>Welcome, Sean!</h1>
-              </div>
-              <div className="right-side">
-                <div className="hamburger-icon" onClick={handleDropdown}>
-                  <FaBars />
-                </div>
-                {isOpen && (
-                  <div className="dropdown-menu">
-                    <ul>
-                      <li><Link to="/login">Logout</Link></li>
-                      <li>Settings</li>
-                      <li><Link to="/list">My Trips</Link></li>
-                    </ul>
-                  </div>
-                )}
-              </div>
-            </nav>
+            <NavBar/>
             <div className="edit-list">
+                <h1 className="list-label">Restaurants</h1>
                 {
-                    restaurant
+                    savedRestaurants.map((restaurant) => (
+                        <ActivityCard
+                           category={data.requestType}
+                           image={restaurant.url}
+                           name={restaurant.name}
+                           description={restaurant.formatted_address}
+                           disliked = {disliked}
+                           liked = {liked}/>
+                    ))
                 }
+                {(currentIndex < restaurantList.length && savedRestaurants.length < 3) ? (
+                    <ActivityCard
+                               category={data.requestType}
+                               image={restaurantList[currentIndex].url}
+                               name={restaurantList[currentIndex].name}
+                               description={restaurantList[currentIndex].formatted_address}
+                               disliked = {disliked}
+                               liked = {liked}/>
+                ) : (
+                    <br/>
+                )}
+                <h1 className="list-label">Events</h1>
+
             </div>
             <button className="finalizeButton">Finalize</button>
         </div>
