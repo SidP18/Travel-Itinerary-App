@@ -1,19 +1,18 @@
 
 //   url: https://maps.googleapis.com/maps/api/place/textsearch/json?query=[yourquerystring]&key=[YOURAPIKEY]
 
-const mongoose = require('mongoose')
 
-var placesListData = {};
 
-function PlacesModel(props) {
+export default class idk {
 
-  const [loc, setLoc] = useState({});
-
-  function getLoc(placeName){
-    setLoc({ lat: 47.6256, lng: -122.3344 });
+  constructor(location) {
+    var loc = location
+    const map = initMap();
+    placesListData = getPlaces(map);
   }
+  
 
-  function initMap() {
+  initMap() {
     // Create the map.
     getLoc(placeName);
     const map = new window.google.maps.Map(document.getElementById("map"), {
@@ -24,7 +23,7 @@ function PlacesModel(props) {
     return map
   }
 
-  function getPlaces(map){
+  getPlaces(map){
     const service = new window.google.maps.places.PlacesService(map);
 
     var request = { location: loc, radius: 500, type: "restaurant" };
@@ -43,7 +42,7 @@ function PlacesModel(props) {
     return placesList
   }
 
-  function addPlaces(places, request) {
+  addPlaces(places, request) {
     var placesList = {
       requestType: request.type,
       places:
@@ -92,9 +91,6 @@ function PlacesModel(props) {
   //   }
   // }
 
-  const map = initMap();
-  placesListData = getPlaces(map);
 }
 
 //This should be changed to a write to the elasticsearch database
-module.exports = mongoose.model('Places', placesListData)
