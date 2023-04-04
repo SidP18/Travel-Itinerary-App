@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import React, { useRef, useEffect, useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import {getEvents} from '../utils/ticketMasterAPI.js';
 
 export const HomePage = (props) => {
     const [city, setCity] = useState('');
@@ -23,9 +24,8 @@ export const HomePage = (props) => {
 
     const handleSearch = () => {
       // Handle search functionality here, using city, startDate, and endDate state values
-      console.log(city);
-      console.log(startDate);
-      console.log(endDate);
+      const events = getEvents('Columbus', 'OH');
+      console.log(events);
     };
 
     const autoCompleteRef = useRef();
@@ -54,7 +54,7 @@ export const HomePage = (props) => {
               id="city-input"
               value={city}
               onChange={handleCityChange}
-              placeholder="e.g. Tokyo, Japan"
+              placeholder="e.g. Sheraton Columbus Hotel at Capitol Square"
             />
           </div>
           <div className="date-picker-container">
@@ -64,8 +64,11 @@ export const HomePage = (props) => {
                 showIcon
                 id="start-date-input"
                 selected={startDate}
+                selectsStart
+                startDate={startDate}
+                endDate={endDate}
                 onChange={handleStartDateChange}
-                dateFormat="M/d/yyyy"
+                dateFormat="MM/d/yyyy"
                 placeholderText="Select a date"
               />
             </div>
@@ -75,8 +78,12 @@ export const HomePage = (props) => {
                 showIcon
                 id="end-date-input"
                 selected={endDate}
+                selectsEnd
+                startDate={startDate}
+                endDate={endDate}
+                minDate={startDate}
                 onChange={handleEndDateChange}
-                dateFormat="M/d/yyyy"
+                dateFormat="MM/d/yyyy"
                 placeholderText="Select a date"
               />
             </div>

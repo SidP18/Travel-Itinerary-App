@@ -2,14 +2,15 @@ import React from "react";
 import './itinerary-edit.css';
 import {BsFillHandThumbsDownFill} from 'react-icons/bs';
 import {BsFillHandThumbsUpFill} from 'react-icons/bs';
+import {BsCheckCircleFill} from 'react-icons/bs';
+import {BsXCircleFill} from 'react-icons/bs';
 
-export const ActivityCard = ({ category, image, name, description }) => {
+export const ActivityCard = ({ category, image, name, description, liked, disliked }) => {
     return (
         <div style={styles.container}>
           <div style={styles.categoryContainer}>
-            <p style={styles.category}>{category}</p>
-            <button className="activityActionButton"><BsFillHandThumbsUpFill/></button>
-            <button className="activityActionButton"><BsFillHandThumbsDownFill/></button>
+            <button className="activityActionButton" onClick={liked}><BsCheckCircleFill/></button>
+            <button className="activityActionButton" onClick={disliked}><BsXCircleFill/></button>
           </div>
           <div style={styles.imageContainer}>
             <img style={styles.image} src={image} aria-hidden alt={name} />
@@ -31,7 +32,8 @@ const styles = {
     borderRadius: '8px',
     backgroundColor: '#FFFFFF',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
-    margin: '1rem'
+    margin: '1rem auto 1rem auto',
+
   },
   categoryContainer: {
     flex: 1,
