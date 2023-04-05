@@ -4,6 +4,8 @@ import React, { useRef, useEffect, useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import {getEvents} from '../utils/ticketMasterAPI.js';
+import { getPlaceData } from '../api'
+
 
 export const HomePage = (props) => {
     const [city, setCity] = useState('');
@@ -22,11 +24,19 @@ export const HomePage = (props) => {
       setEndDate(date);
     };
 
+    const [places, setPlaces] = useState([]);
+
     const handleSearch = () => {
       // Handle search functionality here, using city, startDate, and endDate state values
+      getPlaceData()
+            .then((data) => {
+                console.log(data)
+                setPlaces(data)
+            })
+
       const events = getEvents('Columbus', 'OH');
       console.log(events);
-    };
+    }; 
 
     const autoCompleteRef = useRef();
     const inputRef = useRef();
