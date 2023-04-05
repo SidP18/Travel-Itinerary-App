@@ -1,12 +1,14 @@
 import axios from "axios";
+import React, { useState } from "react";
 
 const URL = 'https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng';
 
-const options = {
-  method: 'GET',
+
+function getOptions(coords) {
+    return ({ method: 'GET',
   params: {
-    latitude: '47.62557',
-    longitude: '-122.334388',
+    latitude: coords.lat,
+    longitude: coords.lng,
     limit: '30',
     currency: 'USD',
     distance: '2',
@@ -17,10 +19,12 @@ const options = {
   headers: {
     'X-RapidAPI-Key': '5ae6788d7emshcd55b6020afdd20p1e2922jsn19c127ff040e',
     'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
-  }
-};
+  }});
+}
 
-export const getPlaceData = async () => {
+export const getPlaceData = async (coords) => {
+    var options = getOptions(coords)
+    console.log(coords)
     try {
         const { data: { data } } = await axios.get(URL, options);
         return data;

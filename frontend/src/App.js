@@ -8,8 +8,6 @@ import {Register} from './components/Register';
 import {TodoListForm} from './components/TodoListForm';
 import {HomePage} from './components/HomePage';
 
-
-
 function App() {
 
     return (
