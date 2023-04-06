@@ -1,5 +1,5 @@
 {
-    "_embedded": {
+    "embedded": {
         "events": [
             {
                 "name": "Monster Energy Supercross",
@@ -311,7 +311,7 @@
                         "enabled": true
                     }
                 },
-                "_links": {
+                "links": {
                     "self": {
                         "href": "/discovery/v2/events/vvG1HZ98T0SK91?locale=en-us"
                     },
@@ -326,7 +326,7 @@
                         }
                     ]
                 },
-                "_embedded": {
+                "embedded": {
                     "venues": [
                         {
                             "name": "Lumen Field",
@@ -399,7 +399,7 @@
                                 "adaCustomCopy": "ADA seats are available",
                                 "adaHours": "Varies by event.    \n\nSeattle Sounders FC:\n2 hours prior to match\n    \nSeahawks:    \n3 hours prior to game.    \n    \nFor Concerts and other events:    \nGenerally 90 minutes prior to event.    \n    \nLumen Field & Lumen Field Field Event Center is located in the Northwest corner of the Stadium. Box Office hours vary by season. \n    \n    \n"
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/venues/KovZpZAEknnA?locale=en-us"
                                 }
@@ -545,7 +545,7 @@
                                 "ticketmaster": 6,
                                 "_filtered": 0
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/attractions/K8vZ9171U8V?locale=en-us"
                                 }
@@ -755,7 +755,7 @@
                         "enabled": true
                     }
                 },
-                "_links": {
+                "links": {
                     "self": {
                         "href": "/discovery/v2/events/vvG1HZ9K2BoJC5?locale=en-us"
                     },
@@ -770,7 +770,7 @@
                         }
                     ]
                 },
-                "_embedded": {
+                "embedded": {
                     "venues": [
                         {
                             "name": "Climate Pledge Arena",
@@ -846,7 +846,7 @@
                                 "adaCustomCopy": "Accessible seating is available for guests with mobility disabilities and guests who require the accessible features provided in our accessible seating locations. When purchasing an accessible seat, up to 3 companion tickets may be purchased. Guest Services provides additional accommodations for guests as requested;  a full list of accommodations can be found at https://climatepledgearena.com/ticketing-guest-info . If you require interpretive services, please contact info@climatepledgearena.com or 206-460-7825 at least 7 days in advance of your event to reserve. ",
                                 "adaHours": "9am – 5pm Monday through Friday"
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/venues/KovZ917Ahkk?locale=en-us"
                                 }
@@ -968,7 +968,7 @@
                                 "ticketmaster": 11,
                                 "_filtered": 0
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/attractions/K8vZ9175x50?locale=en-us"
                                 }
@@ -1173,7 +1173,7 @@
                         "enabled": true
                     }
                 },
-                "_links": {
+                "links": {
                     "self": {
                         "href": "/discovery/v2/events/vvG1HZ9K2B3pCu?locale=en-us"
                     },
@@ -1188,7 +1188,7 @@
                         }
                     ]
                 },
-                "_embedded": {
+                "embedded": {
                     "venues": [
                         {
                             "name": "Climate Pledge Arena",
@@ -1264,7 +1264,7 @@
                                 "adaCustomCopy": "Accessible seating is available for guests with mobility disabilities and guests who require the accessible features provided in our accessible seating locations. When purchasing an accessible seat, up to 3 companion tickets may be purchased. Guest Services provides additional accommodations for guests as requested;  a full list of accommodations can be found at https://climatepledgearena.com/ticketing-guest-info . If you require interpretive services, please contact info@climatepledgearena.com or 206-460-7825 at least 7 days in advance of your event to reserve. ",
                                 "adaHours": "9am – 5pm Monday through Friday"
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/venues/KovZ917Ahkk?locale=en-us"
                                 }
@@ -1386,7 +1386,7 @@
                                 "ticketmaster": 11,
                                 "_filtered": 0
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/attractions/K8vZ9175x50?locale=en-us"
                                 }
@@ -1636,7 +1636,7 @@
                         "enabled": true
                     }
                 },
-                "_links": {
+                "links": {
                     "self": {
                         "href": "/discovery/v2/events/vvG1HZ9pn4PwkO?locale=en-us"
                     },
@@ -1651,7 +1651,7 @@
                         }
                     ]
                 },
-                "_embedded": {
+                "embedded": {
                     "venues": [
                         {
                             "name": "Paramount Theatre",
@@ -1727,7 +1727,7 @@
                                 "adaCustomCopy": "Reserved seating events - Accessible seats will appear on the map with the universal ADA symbol.\n\nGeneral admission events - Parties who require accessible seating may simply purchase the best available ticket online. When you arrive at the show, you will have priority access to accessible sections. Ushers will be available to assist. If you prefer to purchase by phone, please use the number below.",
                                 "adaHours": "24/7"
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/venues/KovZpZAFkvEA?locale=en-us"
                                 }
@@ -1853,7 +1853,7 @@
                                 "ticketmaster": 31,
                                 "_filtered": 0
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/attractions/K8vZ9171YK0?locale=en-us"
                                 }
@@ -2113,7 +2113,7 @@
                         "enabled": true
                     }
                 },
-                "_links": {
+                "links": {
                     "self": {
                         "href": "/discovery/v2/events/vvG1HZ9fKCLwUw?locale=en-us"
                     },
@@ -2131,7 +2131,7 @@
                         }
                     ]
                 },
-                "_embedded": {
+                "embedded": {
                     "venues": [
                         {
                             "name": "Moore Theatre",
@@ -2207,7 +2207,7 @@
                                 "adaCustomCopy": "Reserved seating events - Accessible seats will appear on the map with the universal ADA symbol.\n\nGeneral admission events - Parties who require accessible seating may simply purchase the best available ticket online. When you arrive at the show, you will have priority access to accessible sections. Ushers will be available to assist. If you prefer to purchase by phone, please use the number below.",
                                 "adaHours": "24/7"
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/venues/KovZpZA1vFJA?locale=en-us"
                                 }
@@ -2370,7 +2370,7 @@
                                 "ticketmaster": 19,
                                 "_filtered": 0
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/attractions/K8vZ917CZ-V?locale=en-us"
                                 }
@@ -2486,7 +2486,7 @@
                                 "ticketmaster": 6,
                                 "_filtered": 0
                             },
-                            "_links": {
+                            "links": {
                                 "self": {
                                     "href": "/discovery/v2/attractions/K8vZ917h5Wf?locale=en-us"
                                 }
@@ -2497,7 +2497,7 @@
             }
         ]
     },
-    "_links": {
+    "links": {
         "first": {
             "href": "/discovery/v2/events.json?startDateTime=2023-03-24T14%3A00%3A00Z&city=Seattle&stateCode=WA&endDateTime=2023-03-26T14%3A00%3A00Z&page=0&size=5"
         },
