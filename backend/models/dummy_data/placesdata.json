@@ -1,5 +1,5 @@
 {
-    "requestType": "restaurant",
+    "requesttype": "restaurant",
     "places": {
         "Place0": {
             "name": "Denny Lodge",
