@@ -3,8 +3,7 @@ import {Link} from 'react-router-dom';
 import React, { useRef, useEffect, useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import {getEvents} from '../utils/ticketMasterAPI.js';
-import { getPlaceData } from '../api'
+import { getData } from '../api/CallApis'
 import { Autocomplete } from '@react-google-maps/api'
 
 
@@ -13,12 +12,16 @@ export const HomePage = (props) => {
     const [endDate, setEndDate] = useState(null);
     const [autocomplete, setAutocomplete] = useState(null);
     const [places, setPlaces] = useState([]);
+    const [events, setEvents] = useState([]);
+    const [attractions, setAttractions] = useState([]);
     const [coords, setCoords] = useState({ lat: 47.62557, lng: -122.334388 });
 
     const onLoad = (autoC) => setAutocomplete(autoC);
     const onPlaceChanged = () => {
-      const lat = autocomplete.getPlace().geometry.location.lat()
-      const lng = autocomplete.getPlace().geometry.location.lng()
+
+      const place = autocomplete.getPlace()
+      const lat = place.geometry.location.lat()
+      const lng = place.geometry.location.lng()
 
       setCoords({ lat: lat, lng: lng })
     }
@@ -32,16 +35,13 @@ export const HomePage = (props) => {
     };
 
     const handleSearch = () => {
-      // Handle search functionality here, using city, startDate, and endDate state values
-      getPlaceData(coords)
-            .then((data) => {
-                console.log(JSON.stringify(data))
+      getData(coords)
+            .then((data, data2, data3) => {
+                // console.log(JSON.stringify(data))
                 setPlaces(data)
+                setEvents(data2)
+                setAttractions(data3)
             })
-
-      const events = getEvents('Columbus', 'OH');
-      console.log(events);
-      
     }; 
 
     return (
