@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ToDo from "./ToDo";
-import { addToDo, getAllToDo, updateToDo, deleteToDo } from "../utils/HandleApi";
+import { addToDo, getAllToDo, updateToDo, deleteToDo } from "../api/HandleApi";
 
 export const TodoListForm = (props) => {
 

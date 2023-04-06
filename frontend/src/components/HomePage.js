@@ -3,18 +3,28 @@ import {Link} from 'react-router-dom';
 import React, { useRef, useEffect, useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import {getEvents} from '../utils/ticketMasterAPI.js';
-import { getPlaceData } from '../api'
+import { getData } from '../api/CallApis'
+import { Autocomplete } from '@react-google-maps/api'
 
 
 export const HomePage = (props) => {
-    const [city, setCity] = useState('');
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
+    const [autocomplete, setAutocomplete] = useState(null);
+    const [resturants, setRestaurants] = useState([]);
+    const [events, setEvents] = useState([]);
+    const [attractions, setAttractions] = useState([]);
+    const [coords, setCoords] = useState({ lat: 47.62557, lng: -122.334388 });
 
-    const handleCityChange = (event) => {
-      setCity(event.target.value);
-    };
+    const onLoad = (autoC) => setAutocomplete(autoC);
+    const onPlaceChanged = () => {
+
+      const place = autocomplete.getPlace()
+      const lat = place.geometry.location.lat()
+      const lng = place.geometry.location.lng()
+
+      setCoords({ lat: lat, lng: lng })
+    }
 
     const handleStartDateChange = (date) => {
       setStartDate(date);
@@ -24,33 +34,15 @@ export const HomePage = (props) => {
       setEndDate(date);
     };
 
-    const [places, setPlaces] = useState([]);
-
     const handleSearch = () => {
-      // Handle search functionality here, using city, startDate, and endDate state values
-      getPlaceData()
-            .then((data) => {
-                console.log(data)
-                setPlaces(data)
+      getData(coords)
+            .then((data, data2, data3) => {
+                // console.log(JSON.stringify(data))
+                setRestaurants(data)
+                setEvents(data2)
+                setAttractions(data3)
             })
-
-      const events = getEvents('Columbus', 'OH');
-      console.log(events);
     }; 
-
-    const autoCompleteRef = useRef();
-    const inputRef = useRef();
-    const options = {
-      componentRestrictions: { country: "usa" },
-      fields: ['ALL'],
-      types: ["establishment"]
-    };
-    useEffect(() => {
-      autoCompleteRef.current = new window.google.maps.places.Autocomplete(
-      inputRef.current,
-      options
-      );
-    });
 
     return (
       <div className="search-container">
@@ -58,14 +50,13 @@ export const HomePage = (props) => {
         <div className="search-inputs">
           <div className="search-input destination">
             <label htmlFor="city-input">Destination</label><br/>
-            <input
-              ref={inputRef} //autocomplete ref
-              type="text"
-              id="city-input"
-              value={city}
-              onChange={handleCityChange}
-              placeholder="e.g. Sheraton Columbus Hotel at Capitol Square"
-            />
+            <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
+              <input
+                type="text"
+                id="city-input"
+                placeholder="e.g. Sheraton Columbus Hotel at Capitol Square"
+              />
+            </Autocomplete>
           </div>
           <div className="date-picker-container">
             <div className="search-input">
