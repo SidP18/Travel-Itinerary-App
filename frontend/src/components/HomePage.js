@@ -11,7 +11,7 @@ export const HomePage = (props) => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const [autocomplete, setAutocomplete] = useState(null);
-    const [places, setPlaces] = useState([]);
+    const [resturants, setRestaurants] = useState([]);
     const [events, setEvents] = useState([]);
     const [attractions, setAttractions] = useState([]);
     const [coords, setCoords] = useState({ lat: 47.62557, lng: -122.334388 });
@@ -38,7 +38,7 @@ export const HomePage = (props) => {
       getData(coords)
             .then((data, data2, data3) => {
                 // console.log(JSON.stringify(data))
-                setPlaces(data)
+                setRestaurants(data)
                 setEvents(data2)
                 setAttractions(data3)
             })

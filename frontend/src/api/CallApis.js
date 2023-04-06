@@ -27,7 +27,7 @@ function getOptions(coords) {
 
 export const getData = async (coords) => {
 
-    var places = {}
+    var foods = {}
     var atts = {}
     var events = {}
 
@@ -36,7 +36,7 @@ export const getData = async (coords) => {
     try {
         const { data: { data } } = await axios.get(RURL, options);
         console.log(data)
-        places = data;
+        foods = data;
     }catch (error){
         console.log("Failed to get api data", error)
     }
@@ -67,7 +67,7 @@ export const getData = async (coords) => {
           console.log('-------------------------');
         });
         events = data._embedded.events;
-        return(places, atts, events)
+        return(foods, atts, events)
       })
       .catch(error => console.log(error));
 }
