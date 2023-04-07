@@ -1,4 +1,4 @@
-const express = require('express')
+/* const express = require('express')
 const mongoose = require('mongoose')
 const cors = require("cors")
 
@@ -18,5 +18,16 @@ mongoose
     .catch((err) => console.log(err))
 
     app.use(routes)
+
+app.listen(PORT, () => console.log(`Listening on: ${PORT}`))
+*/
+
+var express = require('express');
+var app = express();
+var routes = require('./routes/routes');
+
+const PORT = 3000;
+
+app.use('api', routes);
 
 app.listen(PORT, () => console.log(`Listening on: ${PORT}`))
