@@ -1,0 +1,52 @@
+{
+    "Index": {
+        "Users_doc": {
+            "User1234": {
+                "Username": "anthony722",
+                "Password": "passwordHash",
+                "Trip_doc": {
+                    "Trip123": {
+                        "Locaction": "Toronto, ON",
+                        "Start_date": "Datetime",
+                        "End_date": "Datetime2",
+                        "Restaurants": ["List", "Of", "Eats"],
+                        "Attractions": ["List", "Of", "Cool", "Places"],
+                        "Events": ["List", "Of", "Events"]
+                    },
+                    "Trip124": {
+                        "Locaction": "New York, NY",
+                        "Start_date": "Datetime",
+                        "End_date": "Datetime2",
+                        "Restaurants": ["List", "Of", "Eats"],
+                        "Attractions": ["List", "Of", "Cool", "Places"],
+                        "Events": ["List", "Of", "Events"],
+                        "Final_itinerary": ["Ressults", "Of", "Querys"]
+                    }
+                }
+            },
+            "User1235": {
+                "Username": "sid722",
+                "Password": "passwordHash",
+                "Trip_doc": {
+                    "Trip123": {
+                        "Locaction": "Seattle, WA",
+                        "Start_date": "Datetime",
+                        "End_date": "Datetime2",
+                        "Restaurants": ["List", "Of", "Eats"],
+                        "Attractions": ["List", "Of", "Cool", "Places"],
+                        "Events": ["List", "Of", "Events"]
+                    },
+                    "Trip124": {
+                        "Locaction": "Denver, CO",
+                        "Start_date": "Datetime",
+                        "End_date": "Datetime2",
+                        "Restaurants": ["List", "Of", "Eats"],
+                        "Attractions": ["List", "Of", "Cool", "Places"],
+                        "Events": ["List", "Of", "Events"],
+                        "Final_itinerary": ["Ressults", "Of", "Querys"]
+                    }
+                }
+            }
+        }
+    }
+}
