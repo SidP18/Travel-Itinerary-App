@@ -68,6 +68,9 @@ export const getData = async (coords, email) => {
           console.log('-------------------------');
         });
         events = data._embedded.events;
+
+        // TODO: Pass email and data to es database here
+        
         return(foods, atts, events)
       })
       .catch(error => console.log(error));
