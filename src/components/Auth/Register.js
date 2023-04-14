@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {Link} from 'react-router-dom';
+import { Login } from "./Login";
 import './login.css'
 
 export const Register = (props) => {
@@ -27,8 +28,8 @@ export const Register = (props) => {
 
                 <button type="submit" className="form-buttons">Register</button>
 
-                <Link className="route-links" to="/login"> Already have an account? Login here.</Link>
-                <Link className="route-links" to="/list"> Go to my trips </Link>
+                <Link className="route-links" to="/login" element={<Login/>}> Already have an account? Login here.</Link>
+                <Link className="route-links" to="/"> Go to my trips </Link>
             </form>
     </div>
     )

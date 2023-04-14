@@ -1,13 +1,15 @@
 import './homepage.css';
 import {Link} from 'react-router-dom';
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useContext } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { getData } from '../api/CallApis'
 import { Autocomplete } from '@react-google-maps/api'
+import AuthContext from './Auth/AuthProvider';
 
 
 export const HomePage = (props) => {
+    const { auth } = useContext(AuthContext);
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const [autocomplete, setAutocomplete] = useState(null);
@@ -35,7 +37,7 @@ export const HomePage = (props) => {
     };
 
     const handleSearch = () => {
-      getData(coords)
+      getData(coords, auth)
             .then((data, data2, data3) => {
                 // console.log(JSON.stringify(data))
                 setRestaurants(data)
