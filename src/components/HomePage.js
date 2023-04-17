@@ -38,12 +38,12 @@ export const HomePage = (props) => {
 
     const handleSearch = () => {
       getData(coords, auth)
-            .then((data, data2, data3) => {
-                // console.log(JSON.stringify(data))
-                setRestaurants(data)
-                setEvents(data2)
-                setAttractions(data3)
-            })
+        .then((data, data2, data3) => {
+            // console.log(JSON.stringify(data))
+            setRestaurants(data)
+            setEvents(data2)
+            setAttractions(data3)
+        })
     }; 
 
     return (

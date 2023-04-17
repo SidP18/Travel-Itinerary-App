@@ -8,13 +8,13 @@ import {Register} from './components/Auth/Register';
 import {HomePage} from './components/HomePage';
 
 function App() {
-    const [currentForm, setCurrentForm] = useState('login')
 
     return (
         <div>
             <Router>
                 <Routes>
-                    <Route path='/' element={<Login/>} />
+                    <Route path='/login' element={<Login/>} />
+                    <Route path='/' element={<Register/>} />
                     <Route exact path='/home' element={<HomePage/>} />
                     <Route path='/edit' element={<ItineraryEdit/>} />
                 </Routes>

@@ -5,6 +5,7 @@ import './login.css';
 import { Register } from "./Register";
 import AuthContext from "./AuthProvider";
 import { HomePage } from "../HomePage";
+import { md5 } from 'hash-wasm';
 
 export const Login = (props) => {
     const { setAuth } = useContext(AuthContext);
@@ -16,39 +17,18 @@ export const Login = (props) => {
     const [errMsg, setErrMsg] = useState('');
     const [success, setSuccess] = useState(false);
 
-
     useEffect(()=>{
         setErrMsg('');
     }, [email, pass])
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        setAuth({ email, pass})
-        console.log(email)
-        setSuccess(true)
-
-        // try{
-        //     const response = await axiosAuth.post(LOGIN_URL, 
-        //         JSON.stringify({email, pass}),
-        //         {
-        //             headers: { 'Content-Type': 'application/json'},
-        //             withCredentials: true
-        //         }
-        //         );
-        //         console.log(JSON.stringify(response?.data))
-        //         const accessToken = JSON.stringify(response?.data.accessToken)
-                
-        // }catch (err){
-        //     if(!err?.response){
-        //         setErrMsg('No Message Recived')
-        //     }else if(!err.response?.status === 400){
-        //         setErrMsg('Missing Email or Password')
-        //     }else if(!err.response?.status === 401){
-        //         setErrMsg('Unauthorized. You may need to make an account!')
-        //     }else {
-        //         setErrMsg('Login Failed');
-        //     }
-        // }
+        // Hash password
+        md5(pass).then(function(hash){
+            setAuth({ email, hash})
+            console.log(email, hash)
+            setSuccess(true)
+        })
     }
 
     return (
@@ -85,10 +65,8 @@ export const Login = (props) => {
                         required  />
 
                     <button type="submit" className="form-buttons">Log In</button>
-                    <button type="submit" className="form-buttons">Register</button>
 
-                    {/* <Link to="/register" className="route-links" element={<Register/>} > Don't have an account? Register here. </Link>
-                    <Link to="/" className="route-links"> Go to my trips </Link> */}
+                    <Link to="/register" className="route-links" element={<Register/>} > Don't have an account? Register here. </Link>
                 </form>
             </div>
         )
