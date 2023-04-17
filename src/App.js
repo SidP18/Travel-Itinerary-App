@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import { BrowserRouter as Router, Routes, Route, Link}
+import { BrowserRouter as Router, Routes, Route, Link, Navigate}
     from 'react-router-dom';
 import {ItineraryEdit} from './components/ItineraryEdit/ItineraryEdit';
 import {Login} from './components/Auth/Login';
@@ -10,15 +10,18 @@ import {HomePage} from './components/HomePage';
 function App() {
 
     return (
-        <Router>
-            <Routes>
-                <Route exact path='/' element={<HomePage/>} />
-                <Route path='/edit' element={<ItineraryEdit/>} />
-                <Route path='/login' element={<Login/>} />
-                <Route path='/register' element={<Register/>} />
-            </Routes>
-            <Link to="/">Home</Link>
-        </Router>
+        <div>
+            <Router>
+                <Routes>
+                    <Route path='/login' element={<Login/>} />
+                    <Route path='/' element={<Register/>} />
+                    <Route exact path='/home' element={<HomePage/>} />
+                    <Route path='/edit' element={<ItineraryEdit/>} />
+                </Routes>
+                {/* <Link to="/">Home</Link> */}
+            </Router>
+        </div>
+        
     );
 }
 
