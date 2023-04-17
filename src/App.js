@@ -3,8 +3,8 @@ import './index.css';
 import { BrowserRouter as Router, Routes, Route, Link}
     from 'react-router-dom';
 import {ItineraryEdit} from './components/ItineraryEdit/ItineraryEdit';
-import {Login} from './components/Login';
-import {Register} from './components/Register';
+import {Login} from './components/Auth/Login';
+import {Register} from './components/Auth/Register';
 import {HomePage} from './components/HomePage';
 
 function App() {
