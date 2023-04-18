@@ -1,42 +1,35 @@
-/*const es = require('@elastic/elasticsearch');
-const es_hosts = [
-  'https://test-12ded2.es.us-central1.gcp.cloud.es.io'
-];
-const es_client = new es.Client({ node: es_hosts });
-const es_bulk = es_client.child({
-  headers: {
-    'accept': 'application/json',
-    'content-type': 'application/json'
-  }
-})
+import React from "react"
+import { Client } from '@elastic/elasticsearch'
 
-async function run() {}
-const bulk_data = [
-    { index: { _index: 'locations' } },
-    { id: "ChIJW9_QXt8VkFQRjxIfTNLIlPc", name: "Denny Lodge", position: {
-        lat: 47.6237776,
-        lng: -122.335088
-    },
-    url: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-    formatted_address: "501 Fairview Ave N, Seattle, WA 98109",
-    business_status: "OPERATIONAL",
-    rating: 4.5
-    }
-  ]
-  
-  let bulk_body = {
-    body: bulk_data.map(JSON.stringify).join('\n') + '\n'
-  }
-  
-  const results = await es_bulk.bulk(bulk_body);*/
-  'use strict'
 
-require('array.prototype.flatmap').shim()
-const { Client } = require('@elastic/elasticsearch')
 const client = new Client({
   cloud: { id: 'TravelAdvisor:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ1YmViNDJkY2IyNzE0Yjc5ODJjYjE2ZmI3ZmQ3NzlmOCRmNTQzOTU3M2IzMTY0ZGIyOWU1NmFkMWFlODZjMGZhMQ==' },
   auth: { apiKey: 'V0R1dVhZY0JGWnpraUxySEFadWE6NmVVUzF4R0NTc2FRNTEyek1TQjE0QQ==' }
 })
+
+export const es_uploadUser = async (auth) => {
+  var auth_temp = auth
+  auth_temp.trips = []
+  const response = await client.index({
+    index: 'index',
+    id: auth.email,
+    document: auth
+  })
+  console.log(response)
+}
+
+export const es_addTrip = async (auth, trip) => {
+  const response = await client.update({
+    index: 'index',
+    id: auth.email,
+    script: {
+      lang: 'painless',
+      source: 'ctx._source.user.add',
+      params: trip
+    }
+  })
+  console.log(response)
+}
 
 async function run () {
   

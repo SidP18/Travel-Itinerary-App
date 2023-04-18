@@ -2,10 +2,12 @@ import './homepage.css';
 import {Link} from 'react-router-dom';
 import React, { useRef, useEffect, useState, useContext } from 'react';
 import DatePicker from 'react-datepicker';
+import { es_addTrip } from '../elastic/elasticUpload';
 import 'react-datepicker/dist/react-datepicker.css';
 import { getData } from '../api/CallApis'
 import { Autocomplete } from '@react-google-maps/api'
 import AuthContext from './Auth/AuthProvider';
+
 
 
 export const HomePage = (props) => {
@@ -50,7 +52,7 @@ export const HomePage = (props) => {
         trip.Attractions = result.atts
         trip.Events = result.events
         console.log(trip)
-        //es_upload(auth, trip)
+        es_addTrip(auth, trip)
       })
     }; 
 
