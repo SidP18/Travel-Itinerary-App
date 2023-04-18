@@ -26,9 +26,10 @@ export const Register = (props) => {
         e.preventDefault();
         // Hash password
         md5(pass).then(function(hash){
-            setAuth({ name, email, hash})
+            var trips = []
+            setAuth({ name, email, hash, trips})
             console.log(name, email, hash)
-            //es_addUser(auth).then()
+            //es_addUser(auth)
             setSuccess(true)
         })
     }
