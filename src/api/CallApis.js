@@ -25,18 +25,17 @@ function getOptions(coords) {
   }});
 }
 
-export const getData = async (coords, email) => {
+export const getData = async (coords, auth) => {
 
     var foods = {}
     var atts = {}
     var events = {}
-    console.log(email)
 
     var options = getOptions(coords)
     console.log(coords)
     try {
         const { data: { data } } = await axios.get(RURL, options);
-        console.log(data)
+        // console.log(data)
         foods = data;
     }catch (error){
         console.log("Failed to get api data", error)
@@ -44,7 +43,7 @@ export const getData = async (coords, email) => {
 
     try {
         const { data: { data } } = await axios.get(AURL, options);
-        console.log(data)
+        // console.log(data)
         atts = data;
     }catch (error){
         console.log("Failed to get api data", error)
@@ -55,23 +54,26 @@ export const getData = async (coords, email) => {
     // console.log(geo)
     const url = `${endpoint}?apikey=${apiKey}&geoPoint=${geo}`;
     // Fetch data from the API
-    fetch(url)
+    await fetch(url)
       .then(response => response.json())
       .then(data => {
         // Log some basic information about the events
         //console.log(data._embedded.events);
         
-        data._embedded.events.forEach(event => {
-          console.log(event.name);
-          console.log(event.dates.start.localDate);
-          console.log(event._embedded.venues[0].name);
-          console.log('-------------------------');
-        });
+        // data._embedded.events.forEach(event => {
+        //   console.log(event.name);
+        //   console.log(event.dates.start.localDate);
+        //   console.log(event._embedded.venues[0].name);
+        //   console.log('-------------------------');
+        // });
         events = data._embedded.events;
 
-        // TODO: Pass email and data to es database here
         
-        return(foods, atts, events)
+        // TODO: Pass email and data to es database here
+      
       })
       .catch(error => console.log(error));
+
+    return {foods, atts, events}
+
 }

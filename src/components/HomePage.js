@@ -13,9 +13,6 @@ export const HomePage = (props) => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const [autocomplete, setAutocomplete] = useState(null);
-    const [resturants, setRestaurants] = useState([]);
-    const [events, setEvents] = useState([]);
-    const [attractions, setAttractions] = useState([]);
     const [coords, setCoords] = useState({ lat: 47.62557, lng: -122.334388 });
 
     const onLoad = (autoC) => setAutocomplete(autoC);
@@ -37,13 +34,24 @@ export const HomePage = (props) => {
     };
 
     const handleSearch = () => {
-      getData(coords, auth)
-        .then((data, data2, data3) => {
-            // console.log(JSON.stringify(data))
-            setRestaurants(data)
-            setEvents(data2)
-            setAttractions(data3)
-        })
+      var trip = {
+        "Trip_id": auth.trips.length + 1,
+        "Location": autocomplete.getPlace().formatted_address,
+        "Start_date": startDate,
+        "End_date": endDate,
+        "Restaurants": null,
+        "Attractions": null,
+        "Events": null
+      }
+      auth.trips.push(trip.Trip_id)
+
+      getData(coords).then((result) => {
+        trip.Restaurants = result.foods
+        trip.Attractions = result.atts
+        trip.Events = result.events
+        console.log(trip)
+        //es_upload(auth, trip)
+      })
     }; 
 
     return (
