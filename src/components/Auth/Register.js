@@ -5,7 +5,7 @@ import './login.css'
 import AuthContext from "./AuthProvider";
 import { HomePage } from "../HomePage";
 import { md5 } from 'hash-wasm';
-// import {es_addUser} from '../../elastic/elasticUpload'
+import { addUser } from "../../api/ElasticAPI";
 
 export const Register = (props) => {
     const { auth, setAuth } = useContext(AuthContext);
@@ -29,7 +29,7 @@ export const Register = (props) => {
             var trips = []
             setAuth({ name, email, hash, trips})
             console.log(name, email, hash)
-            //es_addUser(auth)
+            addUser(auth)
             setSuccess(true)
         })
     }
