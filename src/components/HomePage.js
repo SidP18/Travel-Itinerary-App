@@ -54,6 +54,7 @@ export const HomePage = (props) => {
         console.log(trip)
         //es_upload(auth, trip)
       })
+      window.location.href = "/edit";
     }; 
 
     return (

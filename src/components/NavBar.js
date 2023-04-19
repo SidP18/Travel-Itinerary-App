@@ -9,7 +9,7 @@ export const NavBar = () => {
 
     const handleDropdown = () => {
             setIsOpen(!isOpen);
-        }
+    }
 
     return (
         <nav className="navigation-bar">
@@ -25,7 +25,7 @@ export const NavBar = () => {
                 <ul>
                   <li><Link to="/login">Logout</Link></li>
                   <li>Settings</li>
-                  <li><Link to="/list">My Trips</Link></li>
+                  <li><Link to="/home">My Trips</Link></li>
                 </ul>
               </div>
             )}
