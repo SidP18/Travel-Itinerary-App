@@ -8,7 +8,6 @@ import {Register} from './components/Auth/Register';
 import {HomePage} from './components/HomePage';
 
 function App() {
-
     return (
         <div>
             <Router>
