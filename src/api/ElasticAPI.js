@@ -29,14 +29,13 @@ import axios from "axios";
 // };
 
 export const addUser = async (auth) => {
-    const response = await axios.post("/api/create-user", auth);
-
+    const response = await axios.post("http://localhost:8080/create-user", auth);
     console.log(response.data);
 };
 
 export const addTrip = async (auth, trip) => {
     const req = {"id": auth.email, "trip": trip}
-    const response = await axios.post("/api/add-trip", req);
+    const response = await axios.post("http://localhost:8080/add-trip", req);
     console.log(response.data)
 };
 

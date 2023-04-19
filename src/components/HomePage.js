@@ -54,6 +54,7 @@ export const HomePage = (props) => {
         trip.Attractions = result.atts
         trip.Events = result.events
         console.log(trip)
+        console.log(auth)
         addTrip(auth, trip)
       })
     }; 

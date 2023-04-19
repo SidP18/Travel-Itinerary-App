@@ -28,8 +28,7 @@ export const Register = (props) => {
         md5(pass).then(function(hash){
             var trips = []
             setAuth({ name, email, hash, trips})
-            console.log(name, email, hash)
-            addUser(auth)
+            addUser({ name, email, hash, trips})
             setSuccess(true)
         })
     }
