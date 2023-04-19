@@ -7,6 +7,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { getData } from '../api/CallApis'
 import { Autocomplete } from '@react-google-maps/api'
 import AuthContext from './Auth/AuthProvider';
+import {FilterModal} from './FilterModal';
 
 
 
@@ -15,6 +16,7 @@ export const HomePage = (props) => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const [autocomplete, setAutocomplete] = useState(null);
+    const [filters, setFilters] = useState([]);
     const [coords, setCoords] = useState({ lat: 47.62557, lng: -122.334388 });
 
     const onLoad = (autoC) => setAutocomplete(autoC);
@@ -101,7 +103,7 @@ export const HomePage = (props) => {
               />
             </div>
           </div>
-
+          <FilterModal filters={filters} setFilters={setFilters}/>
           <br/>
           <button className="search-button" onClick={handleSearch}>Give me recommendations</button>
           <Link to="/edit" className="route-links"> Go to my trips </Link>

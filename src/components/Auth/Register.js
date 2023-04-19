@@ -54,7 +54,7 @@ export const Register = (props) => {
                     <button type="submit" className="form-buttons">Register</button>
 
                     <Link className="route-links" to="/login" element={<Login/>}> Already have an account? Login here.</Link>
-                    <Link className="route-links" to="/"> Go to my trips </Link>
+                    <Link className="route-links" to="/home"> Go to my trips </Link>
                 </form>
         </div>
         )
