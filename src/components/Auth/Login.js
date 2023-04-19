@@ -66,7 +66,7 @@ export const Login = (props) => {
 
                     <button type="submit" className="form-buttons">Log In</button>
 
-                    <Link to="/register" className="route-links" element={<Register/>} > Don't have an account? Register here. </Link>
+                    <Link to="/" className="route-links" element={<Register/>} > Don't have an account? Register here. </Link>
                 </form>
             </div>
         )

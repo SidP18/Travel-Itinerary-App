@@ -1,0 +1,309 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  border-radius: 5px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1em));
+  gap: 20px;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 600px;
+  overflow: hidden auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26) inset;
+  border-radius: 5px;
+}
+
+.filter-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+
+.label {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-left: 1rem;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.modal-buttons button:hover,
+.modal-buttons button:focus {
+  background-color: #F082AC;
+}
+
+.show-modal-button {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 2rem;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.show-modal-button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.show-modal-button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.show-modal-button:focus {
+  outline: 1px transparent;
+}
+
+.show-modal-button:-webkit-details-marker {
+  display: none;
+}
+
+.filter-select {
+    width:13px;
+}
+
+.icon.Pizza {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/pizza-fast-food-bake-bread-256.png");
+}
+
+.icon.FastFood {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/food-184/512/french-fries_Snacks_potato-chips_Food-256.png");
+}
+
+.icon.Sandwiches {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/bakery-152/504/sandwich-food-bread-appetizer-toast-256.png");
+}
+
+.icon.Bars {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/beer-festival-2/64/beer_mug_alcohol_drink_beverage_pub-256.png");
+}
+
+.icon.American {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/thanksgiving-day-11/48/american-usa-flag-thanksgiving-256.png");
+}
+
+.icon.Mexican {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/fast-food-234/512/fast_food-06-256.png");
+}
+
+.icon.Burgers {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/food-1152/96/burgers-256.png");
+}
+
+.icon.ChickenWings {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/meat-34/512/Chicken_wings-256.png");
+}
+
+.icon.Breakfast {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/lifestyle-entertainment-vol-2/512/breakfast_egg_sausage_bread-256.png");
+}
+
+.icon.Chinese {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/bistro-restaurant-part-i/64/bistro-and-restaurant_5-256.png");
+}
+
+.icon.Salad {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/food-set-2-1/91/Food_C136-256.png");
+}
+
+.icon.Coffee {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/coffee-shop-4/128/yumminky-coffee-40-256.png");
+}
+
+.icon.Seafood {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/animal-40/128/Animal_Crab-256.png");
+}
+
+.icon.Italian {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/restaurant-element-1/64/pasta-spaghetti-meal-italian-food-256.png");
+}
+
+.icon.Japanese {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/japanese-cuisines/64/Onigiri-256.png");
+}
+
+.icon.Mediterranean {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/food-drinks-caramel-vol-2/512/MEDITERANEAN-256.png");
+}
+
+.icon.Barbeque {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/world-cuisine-astute-vol-1/512/Barbeque-256.png");
+}
+
+.icon.Tacos {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/fast-food-35/512/fast_food_menu_restaurant-17-256.png");
+}
+
+.icon.Steakhouses {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/cuisine-food/128/food-restaurant-meal-steak-meat-grilled-cooked-256.png");
+}
+
+.icon.Greek {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/traditional-fast-food/74/Untitled-3-22-256.png");
+}
+
+.icon.Indian {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/fast-food-and-restaurant-meals-1/128/Indian_Curry-256.png");
+}
+
+.icon.Desserts {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/food-176/64/ice-cream-desserts-sundae-256.png");
+}
+
+.icon.Sushi {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/japan-element/48/18-gastronomy-asian_food-sushi-nutrition-asian-oriental-food-256.png");
+}
+
+.icon.Vegan {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/vegan-and-vegetarian/64/salad-vegan-vegetarian-vegetables-food-256.png");
+}
+
+.icon.Gluten-Free {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/diets-ingredients-and-allergens/101/x_gluten-256.png");
+}
+
+.icon.Vegetarian {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/food-177/64/salad-vegetable-healthy-food-vegetarian-organic-256.png");
+}
+
+.icon.Korean {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/asian-food-7/512/25_Tteokbokki-256.png");
+}
+
+.icon.Cheesesteaks {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/street-food-color-outline/64/13-cheesesteaks-256.png");
+}
+
+.icon.Thai {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/world-cuisine-astute-vol-2/512/Pad_Thai-256.png");
+}
+
+.icon.Vietnamese {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/vietnam-6/504/stew-beef-curry-food-vietnamese-256.png");
+}
+
+.icon.Waffles {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/bakery-123/64/SWEET_WAFFLES-dessert-food_and_restaurant-bakery-sweet-256.png");
+}
+
+.icon.Buffets {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/restaurant-service-filloutline/64/buffet-catering-food_and_restaurant-buffets-events-event_-256.png");
+}
+
+.icon.Southern {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/catering-astute-series/512/Soup-256.png");
+}
+
+.icon.Noodles {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/hokkaido-color-line/48/hokkaido_pixel_perfect_color_line_icons_4-ramen-256.png");
+}
+
+.icon.Ramen {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/international-food/64/ramen-256.png");
+}
