@@ -5,7 +5,7 @@ import './login.css'
 import AuthContext from "./AuthProvider";
 import { HomePage } from "../HomePage";
 import { md5 } from 'hash-wasm';
-// import {es_addUser} from '../../elastic/elasticUpload'
+import { addUser, userSearch } from "../../api/ElasticAPI";
 
 export const Register = (props) => {
     const { auth, setAuth } = useContext(AuthContext);
@@ -28,8 +28,15 @@ export const Register = (props) => {
         md5(pass).then(function(hash){
             var trips = []
             setAuth({ name, email, hash, trips})
-            console.log(name, email, hash)
-            //es_addUser(auth)
+            // userSearch({ name, email, hash, trips}).then((data) =>{
+            //     if(data.max_score > 0){
+            //         addUser({ name, email, hash, trips})
+            //         setSuccess(true)
+            //     }else{
+            //         setErrMsg("Account already exists")
+            //     }
+            // })
+            addUser({ name, email, hash, trips})
             setSuccess(true)
         })
     }

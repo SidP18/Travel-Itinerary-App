@@ -5,7 +5,7 @@ export const FilterModal = (props) => {
   const [showModal, setShowModal] = useState(false);
   const modalRef = useRef(null);
 
-  const filterOptions = [
+  const restaurantFilterOptions = [
     { label: "Pizza", icon: "Pizza" },
     { label: "Fast Food", icon: "FastFood" },
     { label: "Sandwiches", icon: "Sandwiches" },
@@ -41,6 +41,29 @@ export const FilterModal = (props) => {
     { label: "Southern", icon: "Southern" },
     { label: "Noodles", icon: "Noodles" },
     { label: "Ramen", icon: "Ramen" },
+  ];
+
+  const attractionFilterOptions = [
+    { label: "National Parks", icon: "NationalParks"},
+    { label: "Beaches", icon: "Beaches"},
+    { label: "Caves", icon: "Caves"},
+    { label: "Cliffs", icon: "Cliffs"},
+    { label: "Mountains", icon: "Mountains"},
+    { label: "Waterfalls", icon: "Waterfalls"},
+    { label: "Islands", icon: "Islands"},
+    { label: "Forests", icon: "Forests"},
+    { label: "Entertainment Parks", icon: "EntertainmentParks"},
+    { label: "Wildlife Attractions", icon: "WildlifeAttractions"},
+    { label: "Museums", icon: "Museums"},
+    { label: "Historical Sites", icon: "HistoricalSites"},
+    { label: "Markets", icon: "Markets"},
+  ];
+
+  const eventFilterOptions = [
+    { label: "Concerts", icon: "Concerts"},
+    { label: "Sports", icon: "Sports"},
+    { label: "Arts & Theater", icon: "ArtsTheater"},
+    { label: "Family", icon: "Family"},
   ];
 
   const handleFilterSelection = (event) => {
@@ -92,9 +115,45 @@ export const FilterModal = (props) => {
           <div className="close" onClick={handleClose}>
             X
           </div>
-          <h2>Filter Modal</h2>
+          <h2>Restaurants</h2>
           <div className="filter-grid">
-            {filterOptions.map((option) => (
+            {restaurantFilterOptions.map((option) => (
+              <div className="filter-item" key={option.label}>
+                <input
+                  className="filter-select"
+                  type="checkbox"
+                  value={option.label}
+                  checked={props.filters.includes(option.label)}
+                  onChange={handleFilterSelection}
+                />
+                <div className="filter-option">
+                  <div className={`icon ${option.icon}`} />
+                  <div className="label">{option.label}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <h2>Attractions</h2>
+          <div className="filter-grid">
+            {attractionFilterOptions.map((option) => (
+              <div className="filter-item" key={option.label}>
+                <input
+                  className="filter-select"
+                  type="checkbox"
+                  value={option.label}
+                  checked={props.filters.includes(option.label)}
+                  onChange={handleFilterSelection}
+                />
+                <div className="filter-option">
+                  <div className={`icon ${option.icon}`} />
+                  <div className="label">{option.label}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <h2>Events</h2>
+          <div className="filter-grid">
+            {eventFilterOptions.map((option) => (
               <div className="filter-item" key={option.label}>
                 <input
                   className="filter-select"

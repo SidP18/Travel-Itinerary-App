@@ -25,7 +25,7 @@ function getOptions(coords) {
   }});
 }
 
-export const getData = async (coords, auth) => {
+export const getData = async (coords, dates) => {
 
     var foods = {}
     var atts = {}
@@ -35,7 +35,7 @@ export const getData = async (coords, auth) => {
     console.log(coords)
     try {
         const { data: { data } } = await axios.get(RURL, options);
-        // console.log(data)
+        console.log(data)
         foods = data;
     }catch (error){
         console.log("Failed to get api data", error)
@@ -43,7 +43,7 @@ export const getData = async (coords, auth) => {
 
     try {
         const { data: { data } } = await axios.get(AURL, options);
-        // console.log(data)
+        console.log(data)
         atts = data;
     }catch (error){
         console.log("Failed to get api data", error)
@@ -52,6 +52,8 @@ export const getData = async (coords, auth) => {
     var geo = Geohash.encode(coords.lat, coords.lng, 7)
     // Set up the API request URL
     // console.log(geo)
+    console.log(dates)
+    //&startDateTime=${dates.startDate}&endDateTime=${dates.endDate}
     const url = `${endpoint}?apikey=${apiKey}&geoPoint=${geo}`;
     // Fetch data from the API
     await fetch(url)
@@ -59,15 +61,18 @@ export const getData = async (coords, auth) => {
       .then(data => {
         // Log some basic information about the events
         //console.log(data._embedded.events);
+        var data_list = []
         
-        // data._embedded.events.forEach(event => {
-        //   console.log(event.name);
-        //   console.log(event.dates.start.localDate);
-        //   console.log(event._embedded.venues[0].name);
-        //   console.log('-------------------------');
-        // });
-        events = data._embedded.events;
-
+        data._embedded.events.forEach(event => {
+          var temp = event
+          if (event.hasOwnProperty('priceRanges')){
+            temp.priceRanges[0].min = String(event.priceRanges[0].min)
+            temp.priceRanges[0].max = String(event.priceRanges[0].max)
+          }
+          data_list.push(temp)
+        });
+        events = data_list;
+        console.log(events)
         
         // TODO: Pass email and data to es database here
       
