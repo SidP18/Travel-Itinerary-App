@@ -42,8 +42,8 @@
   gap: 20px;
   padding: 1rem;
   margin: 0 auto;
-  max-width: 100%;
-  max-height: 600px;
+  max-width: 80%;
+  max-height: 400px;
   overflow: hidden auto;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26) inset;
   border-radius: 5px;
@@ -306,4 +306,72 @@
 
 .icon.Ramen {
   background-image: url("https://cdn2.iconfinder.com/data/icons/international-food/64/ramen-256.png");
+}
+
+.icon.NationalParks {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/vacation-74/24/National_Parks-01-256.png");
+}
+
+.icon.Beaches {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/summer-time-24/512/parasol-summer-beach-umbrella-shade-weather-beaches-sand-nature.svg-256.png");
+}
+
+.icon.Caves {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/nature-landscape-8/512/cave_landscape_nature_cavern-256.png");
+}
+
+.icon.Cliffs {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/nature-landscape-8/512/cliff_edge_bay_landscape-256.png");
+}
+
+.icon.Mountains {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/camping-gradient-openning-season/512/Mountains-256.png");
+}
+
+.icon.Waterfalls {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/world-forestry-3/300/waterfall-256.png");
+}
+
+.icon.Islands {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/nature-emoji/50/Island-256.png");
+}
+
+.icon.Forests {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/land-scape-nature/100/coniferous_forests_color_land_scape_nature_desert-256.png");
+}
+
+.icon.EntertainmentParks {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/lifestyle-entertainment-vol-2/512/roller_coaster_amusement_park-256.png");
+}
+
+.icon.WildlifeAttractions {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/lifestyle-entertainment-vol-2/512/zoo_park_animal_giraffe-256.png");
+}
+
+.icon.Museums {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/dinosaur_skull_paleontology_museum-256.png");
+}
+
+.icon.HistoricalSites {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/went-down-in-history-1/60/colloseum-256.png");
+}
+
+.icon.Markets {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/unigrid-phantom-buildings-vol-3/60/008_108_shop_store_food_market_building-256.png");
+}
+
+.icon.Concerts {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/edm-malibu-vol-1/128/edm-festival-256.png");
+}
+
+.icon.Sports {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/sports-98/64/people-player-sport-quarterback-american-football-256.png");
+}
+
+.icon.ArtsTheater {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/scenarium-vol-10/128/040-256.png");
+}
+
+.icon.Family {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/legal-law-justice/128/FAMILY_LAW-256.png");
 }
