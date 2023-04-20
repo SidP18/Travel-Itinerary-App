@@ -88,6 +88,7 @@ app.post("/user-search", async (req, res) => {
 });
 
 app.post("/filter-rest", async (req, res) => {
+
     const result = await client.search({
         index: 'test_index2',
         _source: false,
@@ -98,7 +99,7 @@ app.post("/filter-rest", async (req, res) => {
                 {
                   term: {
                     _id: {
-                      value: req.body.email
+                      value: "bouie@osu.edu"
                     }
                   }
                 },
@@ -171,7 +172,7 @@ app.post("/filter-att", async (req, res) => {
                 {
                   term: {
                     _id: {
-                      value: req.body.email
+                      value: "bouie@osu.edu"
                     }
                   }
                 },
@@ -239,7 +240,7 @@ app.post("/filter-event", async (req, res) => {
                 {
                   term: {
                     _id: {
-                      value: req.body.email
+                      value: "bouie@osu.edu"
                     }
                   }
                 },
