@@ -25,7 +25,7 @@ export const ItineraryEdit = (props) => {
     const [savedRestaurants, setSavedRestaurants] = useState([]);
     const [currentRestaurantIndex, setCurrentRestaurantIndex] = useState(0);
 
-    const [savedAttraction, setSavedAttraction] = useState([]);
+    const [savedAttractions, setSavedAttractions] = useState([]);
     const [currentAttractionIndex, setCurrentAttractionIndex] = useState(0);
 
     const [savedEvents, setSavedEvents] = useState([]);
@@ -37,24 +37,15 @@ export const ItineraryEdit = (props) => {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        setSavedAttraction(Array(filterAttSearch(auth)))
+        setRestaurantData(Array(filterAttSearch(auth)))
         setEventList(Array(filterEventSearch(auth)))
         setRestaurantData(Array(filterRestSearch(auth)))
         setLoaded(true)
       }, []);
 
-    let restaurantList = restaurantData;
-    for (var i = 0; i < restaurantData; i++) {
-        if ("ad_position" in restaurantData[i]) {
-        } else {
-            restaurantList.push(restaurantData[i])
-        }
-    }
-    restaurantData = restaurantList;
-
     const restaurantLiked = () => {
         if (savedRestaurants.length < 3) {
-            setSavedRestaurants([...savedRestaurants, restaurantList[currentRestaurantIndex]]);
+            setSavedRestaurants([...savedRestaurants, restaurantData[currentRestaurantIndex]]);
         }
         if (restaurantData[currentRestaurantIndex+1].hasOwnProperty('ad_position')) {
             setCurrentRestaurantIndex(currentRestaurantIndex + 2);
@@ -71,16 +62,16 @@ export const ItineraryEdit = (props) => {
         }
     };
 
-    const attractionLiked = () => {
-        if (savedAttractions.length < 3) {
-            setSavedAttractions([...savedAttractions, attractionList[currentAttractionIndex]]);
-        }
-        setCurrentAttractionIndex(currentAttractionIndex + 1);
-    };
+    // const attractionLiked = () => {
+    //     if (savedAttractions.length < 3) {
+    //         setSavedAttractions([...savedAttractions, attractionList[currentAttractionIndex]]);
+    //     }
+    //     setCurrentAttractionIndex(currentAttractionIndex + 1);
+    // };
 
-    const attractionDisliked = () => {
-        setCurrentAttractionIndex(currentAttractionIndex + 1);
-    };
+    // const attractionDisliked = () => {
+    //     setCurrentAttractionIndex(currentAttractionIndex + 1);
+    // };
 
     const eventLiked = () => {
         if (savedEvents.length < 3) {
@@ -125,7 +116,6 @@ export const ItineraryEdit = (props) => {
                       dietaryRestrictions= {restaurantData[currentRestaurantIndex].dietary_restrictions}
                       phoneNumber= {restaurantData[currentRestaurantIndex].phone}
                       website= {restaurantData[currentRestaurantIndex].web_url}
-                      photoUrl= {restaurantData[currentRestaurantIndex].photo.images.small.url}
                       rating= {restaurantData[currentRestaurantIndex].rating}
                       price= {restaurantData[currentRestaurantIndex].price_level}
                       liked={restaurantLiked}
@@ -174,8 +164,7 @@ export const ItineraryEdit = (props) => {
                 {
                     (currentEventIndex < eventList.length && savedEvents.length < 3) ? (
                         <EventCard
-                            image={eventList[currentEventIndex].images[0].url}
-                            date={eventList[currentEventIndex].dates.start.localDate}
+                            image={eventList[currentEventIndex].keyword}
                             name={eventList[currentEventIndex].name}
                             liked={eventLiked}
                             disliked={eventDisliked}

@@ -232,15 +232,15 @@ app.post("/filter-att", async (req, res) => {
 app.post("/filter-event", async (req, res) => {
     const result = await client.search({
         index: 'test_index2',
-        _source: false,
         body: {
+          _source: false,
           query: {
             bool: {
               must: [
                 {
                   term: {
-                    _id: {
-                      value: "bouie@osu.edu"
+                    '_id': {
+                      value: 'bouie@gmail.com'
                     }
                   }
                 },
@@ -265,9 +265,9 @@ app.post("/filter-event", async (req, res) => {
                                   must: [
                                     {
                                       range: {
-                                        'trips.Events.priceRanges[0].min': {
-                                          gte: 10,
-                                          lte: 60
+                                        'trips.Events.dates.start.dateTime': {
+                                          gte: '2023-04-29T00:00:00',
+                                          lte: '2023-05-30T23:59:59'
                                         }
                                       }
                                     }
@@ -284,11 +284,15 @@ app.post("/filter-event", async (req, res) => {
               ]
             }
           },
-            fields: [
-                "trips.Events.name", "trips.Events.images", "trips.Events.dates", "trips.Events.priceRanges", "trips.Events.URL",
-            ],
+          fields: [
+            'trips.Events.name',
+            'trips.Events._embedded.attractions.images.url.keyword',
+            'trips.Events.dates',
+            'trips.Events.priceRanges',
+            'trips.Events.URL'
+          ]
         }
-    });
+      });
 
     console.log(result);
     res.send(result);
