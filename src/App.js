@@ -8,14 +8,19 @@ import {Register} from './components/Auth/Register';
 import {HomePage} from './components/HomePage';
 
 function App() {
+
+    const [restaurants, setRestaurants] = useState([]);
+    const [attractions, setAttractions] = useState([]);
+    const [events, setEvents] = useState([]);
+
     return (
         <div>
             <Router>
                 <Routes>
                     <Route path='/login' element={<Login/>} />
                     <Route path='/' element={<Register/>} />
-                    <Route exact path='/home' element={<HomePage/>} />
-                    <Route path='/edit' element={<ItineraryEdit/>} />
+                    <Route exact path='/home' element={<HomePage setRestaurants={setRestaurants} setAttractions={setAttractions} setEvents={setEvents}/>} />
+                    <Route path='/edit' element={<ItineraryEdit restaurants={restaurants} attractions={attractions} events={events}/>} />
                 </Routes>
                 {/* <Link to="/">Home</Link> */}
             </Router>

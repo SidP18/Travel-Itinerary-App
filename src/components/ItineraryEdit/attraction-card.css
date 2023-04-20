@@ -1,0 +1,59 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card h4 {
+  margin-top: 0;
+  color: #999;
+}
+
+.card p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.card p:first-child {
+  margin-top: 0;
+}
+
+.card p a {
+  color: #007bff;
+}
+
+.card p a:hover {
+  text-decoration: underline;
+}
+
+.card .like, .card .dislike {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.card .like i, .card .dislike i {
+  margin-right: 5px;
+}
+
+.card .like.active, .card .dislike.active {
+  color: #007bff;
+}

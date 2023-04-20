@@ -1,70 +1,32 @@
 import React from "react";
 import './itinerary-edit.css';
+import './restaurant-card.css';
 import {BsFillHandThumbsDownFill} from 'react-icons/bs';
 import {BsFillHandThumbsUpFill} from 'react-icons/bs';
 import {BsCheckCircleFill} from 'react-icons/bs';
 import {BsXCircleFill} from 'react-icons/bs';
 
-export const ActivityCard = ({ category, image, name, description, liked, disliked }) => {
-    return (
-        <div style={styles.container}>
-          <div style={styles.categoryContainer}>
-            <button className="activityActionButton" onClick={liked}><BsCheckCircleFill/></button>
-            <button className="activityActionButton" onClick={disliked}><BsXCircleFill/></button>
-          </div>
-          <div style={styles.imageContainer}>
-            <img style={styles.image} src={image} aria-hidden alt={name} />
-          </div>
-          <div style={styles.infoContainer}>
-            <h2 style={styles.name}>{name}</h2>
-            <p style={styles.description}>{description}</p>
-          </div>
+export const RestaurantCard = ({ address, cuisine, description, dietaryRestrictions, hours, phoneNumber, website, photoUrl, rating, price, liked, disliked }) => {
+  return (
+    <div className="restaurant-card">
+      <div className="restaurant-card__photo-container">
+        <img className="restaurant-card__photo" src={photoUrl} alt={description} />
+      </div>
+      <div className="restaurant-card__details">
+        <h2 className="restaurant-card__name">{description}</h2>
+        <p className="restaurant-card__address">{address}</p>
+        <p className="restaurant-card__cuisine">{cuisine}</p>
+        <p className="restaurant-card__phone">{phoneNumber}</p>
+        <p className="restaurant-card__website"><a href={website}>{website}</a></p>
+        <div className="restaurant-card__rating-container">
+          <span className="restaurant-card__rating">{rating}</span>
         </div>
-      );
-}
-
-const styles = {
-  container: {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: '12px',
-    borderRadius: '8px',
-    backgroundColor: '#FFFFFF',
-    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
-    margin: '1rem auto 1rem auto',
-
-  },
-  categoryContainer: {
-    flex: 1,
-    marginRight: '12px',
-  },
-  category: {
-    fontSize: '16px',
-    fontWeight: 'bold',
-    margin: '0',
-  },
-  imageContainer: {
-    flex: 1,
-    marginRight: '12px',
-  },
-  image: {
-    width: '100%',
-    height: 'auto',
-    maximumHeight: '2rem',
-    borderRadius: '8px',
-  },
-  infoContainer: {
-    flex: 2,
-  },
-  name: {
-    fontSize: '24px',
-    fontWeight: 'bold',
-    margin: '0',
-    marginBottom: '8px',
-  },
-  description: {
-    fontSize: '16px',
-    margin: '0',
-  },
+        <p className="restaurant-card__price">{price}</p>
+        <div className="restaurant-card__buttons">
+          <button className="restaurant-card__like-button" onClick={liked}>Like</button>
+          <button className="restaurant-card__dislike-button" onClick={disliked}>Dislike</button>
+        </div>
+      </div>
+    </div>
+  );
 };
