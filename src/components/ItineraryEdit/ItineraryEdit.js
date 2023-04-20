@@ -25,15 +25,15 @@ export const ItineraryEdit = (props) => {
     const [savedRestaurants, setSavedRestaurants] = useState([]);
     const [currentRestaurantIndex, setCurrentRestaurantIndex] = useState(0);
 
-    const [savedAttractions, setSavedAttractions] = useState([]);
-    const [currentAttractionsIndex, setCurrentAttractionsIndex] = useState(0);
+    const [savedAttraction, setSavedAttraction] = useState([]);
+    const [currentAttractionIndex, setCurrentAttractionIndex] = useState(0);
 
     const [savedEvents, setSavedEvents] = useState([]);
     const [currentEventIndex, setCurrentEventIndex] = useState(0);
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
-        setSavedAttractions(Array(filterAttSearch(auth)))
+        setSavedAttraction(Array(filterAttSearch(auth)))
         setSavedEvents(Array(filterEventSearch(auth)))
         setSavedRestaurants(Array(filterRestSearch(auth)))
         setLoaded(true)
