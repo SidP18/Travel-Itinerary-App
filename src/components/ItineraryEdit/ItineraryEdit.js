@@ -30,12 +30,16 @@ export const ItineraryEdit = (props) => {
 
     const [savedEvents, setSavedEvents] = useState([]);
     const [currentEventIndex, setCurrentEventIndex] = useState(0);
+
+    const [restaurantData, setRestaurantData] = useState([]);
+    const [eventList, setEventList] = useState([]);
+
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
         setSavedAttraction(Array(filterAttSearch(auth)))
-        setSavedEvents(Array(filterEventSearch(auth)))
-        setSavedRestaurants(Array(filterRestSearch(auth)))
+        setEventList(Array(filterEventSearch(auth)))
+        setRestaurantData(Array(filterRestSearch(auth)))
         setLoaded(true)
       }, []);
 
@@ -46,10 +50,7 @@ export const ItineraryEdit = (props) => {
             restaurantList.push(restaurantData[i])
         }
     }
-
-    let attractionList = attractionData;
-
-    let eventList = eventData;
+    restaurantData = restaurantList;
 
     const restaurantLiked = () => {
         if (savedRestaurants.length < 3) {
@@ -117,16 +118,16 @@ export const ItineraryEdit = (props) => {
                         />
                     ))
                 }
-                {(currentRestaurantIndex < restaurantList.length & savedRestaurants.length < 3) ? (
+                {(currentRestaurantIndex < restaurantData.length & savedRestaurants.length < 3) ? (
                     <RestaurantCard
-                      address= {restaurantList[currentRestaurantIndex].address}
-                      description= {restaurantList[currentRestaurantIndex].name}
-                      dietaryRestrictions= {restaurantList[currentRestaurantIndex].dietary_restrictions}
-                      phoneNumber= {restaurantList[currentRestaurantIndex].phone}
-                      website= {restaurantList[currentRestaurantIndex].web_url}
-                      photoUrl= {restaurantList[currentRestaurantIndex].photo.images.small.url}
-                      rating= {restaurantList[currentRestaurantIndex].rating}
-                      price= {restaurantList[currentRestaurantIndex].price_level}
+                      address= {restaurantData[currentRestaurantIndex].address}
+                      description= {restaurantData[currentRestaurantIndex].name}
+                      dietaryRestrictions= {restaurantData[currentRestaurantIndex].dietary_restrictions}
+                      phoneNumber= {restaurantData[currentRestaurantIndex].phone}
+                      website= {restaurantData[currentRestaurantIndex].web_url}
+                      photoUrl= {restaurantData[currentRestaurantIndex].photo.images.small.url}
+                      rating= {restaurantData[currentRestaurantIndex].rating}
+                      price= {restaurantData[currentRestaurantIndex].price_level}
                       liked={restaurantLiked}
                       disliked={restaurantDisliked}
                     />
