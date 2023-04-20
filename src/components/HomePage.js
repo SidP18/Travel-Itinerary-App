@@ -8,7 +8,7 @@ import { getData } from '../api/CallApis'
 import { Autocomplete } from '@react-google-maps/api'
 import AuthContext from './Auth/AuthProvider';
 import {FilterModal} from './FilterModal';
-
+import Trip from './Trip';
 
 
 export const HomePage = (props) => {
@@ -56,6 +56,7 @@ export const HomePage = (props) => {
         console.log(trip)
         console.log(auth)
         addTrip(auth, trip)
+        sessionStorage.trip = JSON.stringify(trip);
         window.location.href = "/edit";
       })
       
