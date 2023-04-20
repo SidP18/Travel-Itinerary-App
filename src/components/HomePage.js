@@ -49,11 +49,13 @@ export const HomePage = (props) => {
       }
       auth.trips.push(trip.Trip_id)
 
-      getData(coords).then((result) => {
+
+      getData(coords, {startDate, endDate}).then((result) => {
         trip.Restaurants = result.foods
         trip.Attractions = result.atts
         trip.Events = result.events
         console.log(trip)
+        console.log(auth)
         addTrip(auth, trip)
       })
     }; 

@@ -1,19 +1,30 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const elasticClient = require("./elastic-client");
-require("express-async-errors");
-
+import express from "express";
+import cors from 'cors'
+import { Client } from '@elastic/elasticsearch'
+import bodyParser from 'body-parser'
 const app = express();
 
-app.use(bodyParser.json());
+app.use(cors(), express.json({limit: '100mb'}));
+
+const client = new Client({
+    cloud: { id: 'TravelAdvisor:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ1YmViNDJkY2IyNzE0Yjc5ODJjYjE2ZmI3ZmQ3NzlmOCRmNTQzOTU3M2IzMTY0ZGIyOWU1NmFkMWFlODZjMGZhMQ==' },
+    auth: { apiKey: 'TUNVb200Y0JpZmZGZTg3ekY2QzA6ZmV6SnZTTlRUSEtNOTdKYnpnaTBKZw==' }
+})
+
+// const createIndex = async (indexName) => {
+//     await elasticClient.indices.create({ index: indexName });
+//     console.log("Index created");
+// };
+
+// createIndex("index");
 
 app.get("/", (req, res) => {
-    res.redirect("http://localhost:5173/");
+    res.redirect("http://localhost:3000/");
 });
 
 app.post("/create-user", async (req, res) => {
-    const result = await elasticClient.index({
-        index: "index",
+    const result = await client.index({
+        index: "test_index",
         id: req.body.email,
         document: {
             name: req.name,
@@ -22,24 +33,37 @@ app.post("/create-user", async (req, res) => {
             trips: []
         },
     });
-    res.send(result);
+    console.log(result)
+    res.send("Added User: " + req.body.email);
 });
 
 app.post("/add-trip", async (req, res) => {
-    const result = await elasticClient.update({
-        index: 'index',
-        id: auth.email,
+    const result = await client.update({
+        index: 'test_index',
+        id: req.body.id,
         script: {
-          lang: 'painless',
-          source: 'ctx._source.user.add',
-          params: req
+            lang: 'painless',
+            source: "ctx._source.trips.add(params.object)",
+            params: {
+                object: [req.body.trip]
+            }
         }
-      });
-    res.send(result);
+    });
+    console.log(result)
+    res.send("Added Trip: " + req.body.trip.Location);
+});
+
+app.post("/user-search", async (req, res) => {
+    const result = await client.search({
+        index: "test_index",
+        query: { match: { "_id": req.body.email } },
+    });
+    console.log(result)
+    res.send(result.hits);
 });
 
 app.delete("/remove-post", async (req, res) => {
-    const result = await elasticClient.delete({
+    const result = await client.delete({
         index: "posts",
         id: req.query.id,
     });
@@ -47,17 +71,8 @@ app.delete("/remove-post", async (req, res) => {
     res.json(result);
 });
 
-app.get("/search", async (req, res) => {
-    const result = await elasticClient.search({
-        index: "posts",
-        query: { fuzzy: { title: req.query.query } },
-    });
-
-    res.json(result);
-});
-
 app.get("/posts", async (req, res) => {
-    const result = await elasticClient.search({
+    const result = await client.search({
         index: "posts",
         query: { match_all: {} },
     });
@@ -65,4 +80,4 @@ app.get("/posts", async (req, res) => {
     res.send(result);
 });
 
-app.listen(8080);
+app.listen(8080, () => console.log("App is running"));
