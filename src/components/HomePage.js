@@ -20,8 +20,8 @@ export const HomePage = (props) => {
     const [coords, setCoords] = useState({ lat: 47.62557, lng: -122.334388 });
 
     const onLoad = (autoC) => setAutocomplete(autoC);
-    const onPlaceChanged = () => {
 
+    const onPlaceChanged = () => {
       const place = autocomplete.getPlace()
       const lat = place.geometry.location.lat()
       const lng = place.geometry.location.lng()
@@ -58,6 +58,7 @@ export const HomePage = (props) => {
         console.log(auth)
         addTrip(auth, trip)
       })
+      window.location.href = "/edit";
     }; 
 
     return (
