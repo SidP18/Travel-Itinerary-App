@@ -24,13 +24,13 @@ app.get("/", (req, res) => {
 
 app.post("/create-user", async (req, res) => {
     const result = await client.index({
-        index: "test_index",
+        index: "test_index2",
         id: req.body.email,
         document: {
-            name: req.name,
-            email: req.email,
-            password: req.pass,
-            trips: []
+            "name": req.name,
+            "email": req.email,
+            "password": req.pass,
+            "trips": []
         },
     });
     console.log(result)
@@ -39,7 +39,7 @@ app.post("/create-user", async (req, res) => {
 
 app.post("/add-trip", async (req, res) => {
     const result = await client.update({
-        index: 'test_index',
+        index: 'test_index2',
         id: req.body.id,
         script: {
             lang: 'painless',
@@ -55,7 +55,7 @@ app.post("/add-trip", async (req, res) => {
 
 app.post("/user-search", async (req, res) => {
     const result = await client.search({
-        index: "test_index",
+        index: "test_index2",
         query: { match: { "_id": req.body.email } },
     });
     console.log(result)

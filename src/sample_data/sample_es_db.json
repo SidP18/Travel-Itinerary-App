@@ -1,11 +1,11 @@
 {
     "Index": {
-        "Users_doc": {
-            "User1234": {
+        "_doc/anthony722": {
                 "Username": "anthony722",
                 "Password": "passwordHash",
-                "Trip_doc": {
-                    "Trip123": {
+                "trips": [
+                    {
+                        "Trip_id": "Trip123",
                         "Locaction": "Toronto, ON",
                         "Start_date": "Datetime",
                         "End_date": "Datetime2",
@@ -13,7 +13,8 @@
                         "Attractions": ["List", "Of", "Cool", "Places"],
                         "Events": ["List", "Of", "Events"]
                     },
-                    "Trip124": {
+                    {
+                        "Trip_id": "Trip456",
                         "Locaction": "New York, NY",
                         "Start_date": "Datetime",
                         "End_date": "Datetime2",
@@ -22,13 +23,15 @@
                         "Events": ["List", "Of", "Events"],
                         "Final_itinerary": ["Ressults", "Of", "Querys"]
                     }
+                ]
                 }
             },
-            "User1235": {
+            "_doc/sid722": {
                 "Username": "sid722",
                 "Password": "passwordHash",
-                "Trip_doc": {
-                    "Trip123": {
+                "trips": [
+                     {  
+                        "Trip_id": "Trip123",
                         "Locaction": "Seattle, WA",
                         "Start_date": "Datetime",
                         "End_date": "Datetime2",
@@ -36,7 +39,8 @@
                         "Attractions": ["List", "Of", "Cool", "Places"],
                         "Events": ["List", "Of", "Events"]
                     },
-                    "Trip124": {
+                    {
+                        "Trip_id": "Trip456",
                         "Locaction": "Denver, CO",
                         "Start_date": "Datetime",
                         "End_date": "Datetime2",
@@ -45,8 +49,6 @@
                         "Events": ["List", "Of", "Events"],
                         "Final_itinerary": ["Ressults", "Of", "Querys"]
                     }
-                }
+                ]
             }
         }
-    }
-}

@@ -41,7 +41,6 @@ export const addTrip = async (auth, trip) => {
 
 export const userSearch = async (auth) => {
     const response = await axios.post("http://localhost:8080/user-search", auth);
-
     return response.data;
 };
 

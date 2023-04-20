@@ -49,7 +49,6 @@ export const HomePage = (props) => {
       }
       auth.trips.push(trip.Trip_id)
 
-
       getData(coords, {startDate, endDate}).then((result) => {
         trip.Restaurants = result.foods
         trip.Attractions = result.atts
@@ -57,8 +56,9 @@ export const HomePage = (props) => {
         console.log(trip)
         console.log(auth)
         addTrip(auth, trip)
+        window.location.href = "/edit";
       })
-      window.location.href = "/edit";
+      
     }; 
 
     return (
