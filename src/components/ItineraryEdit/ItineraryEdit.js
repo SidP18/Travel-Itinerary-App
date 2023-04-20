@@ -1,17 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import './itinerary-edit.css';
 import {ActivityCard} from "./activityCard";
 import {NavBar} from '../NavBar';
 import {EventCard} from './EventCard';
 import restaurantData from '../../sample_data/placesdata.json';
 import eventData from '../../sample_data/ticketmaster.json';
+import AuthContext from "../Auth/AuthProvider";
+import { filterAttSearch, filterEventSearch, filterRestSearch } from "../../api/ElasticAPI";
 
 export const ItineraryEdit = (props) => {
+    const { auth } = useContext(AuthContext);
     const [savedRestaurants, setSavedRestaurants] = useState([]);
     const [currentRestaurantIndex, setCurrentRestaurantIndex] = useState(0);
 
+    const [savedAttractions, setSavedAttractions] = useState([]);
+    const [currentAttractionsIndex, setCurrentAttractionsIndex] = useState(0);
+
     const [savedEvents, setSavedEvents] = useState([]);
     const [currentEventIndex, setCurrentEventIndex] = useState(0);
+
+    const [loaded, setLoaded] = useState(false);
+
+    useEffect(() => {
+        setSavedAttractions(Array(filterAttSearch(auth)))
+        setSavedEvents(Array(filterEventSearch(auth)))
+        setSavedRestaurants(Array(filterRestSearch(auth)))
+        setLoaded(true)
+      }, []);
 
     let restaurantList = [];
     for (var key in restaurantData.places) {
@@ -45,7 +60,12 @@ export const ItineraryEdit = (props) => {
         setCurrentEventIndex(currentEventIndex + 1);
     };
 
-    return (
+    return (<>{
+        !loaded ? (
+            <div>
+                <h1> Loading... </h1>
+            </div>
+        ):(
         <div className="itinerary-edit-page">
             <NavBar/>
             <div className="edit-list">
@@ -76,12 +96,13 @@ export const ItineraryEdit = (props) => {
 
                 <h1 className="list-label">Events</h1>
                 {
-                    savedEvents.map((event) => (
+                    savedEvents.map((event_t) => (
+                        //event_t = JSON.stringify(event_t),
                         <EventCard
-                            imageSrc={event.images[0].url}
-                            date={event.dates.start.localDate}
-                            name={event.name}
-                            category={event.classifications[0].segment.name}
+                            imageSrc={event_t.images[0].url}
+                            date={event_t.dates.start.localDate}
+                            name={event_t.name}
+                            category={event_t.classifications[0].segment.name}
                             liked={eventLiked}
                             disliked={eventDisliked}
                         />
@@ -103,4 +124,5 @@ export const ItineraryEdit = (props) => {
             <button className="finalizeButton">Finalize</button>
         </div>
     )
+}</>)
 }

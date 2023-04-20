@@ -44,6 +44,20 @@ export const userSearch = async (auth) => {
     return response.data;
 };
 
+export const filterRestSearch = async (auth) => {
+    const response = await axios.post("http://localhost:8080/filter-rest", auth);
+    return(response.data.hits.hits)
+};
+export const filterAttSearch = async (auth) => {
+    const response = await axios.post("http://localhost:8080/filter-att", auth);
+    return(response.data.hits.hits)
+};
+export const filterEventSearch = async (auth) => {
+    const response = await axios.post("http://localhost:8080/filter-event", auth);
+    return(response.data.hits.hits)
+};
+
+
 // const removePosts = async (removedIds) => {
 //     setPosts(posts.filter((post) => !removedIds.includes(post.id)));
 //     await Promise.all(removedIds.map((id) => api.removePost(id)));

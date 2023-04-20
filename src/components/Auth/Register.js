@@ -36,6 +36,7 @@ export const Register = (props) => {
             //         setErrMsg("Account already exists")
             //     }
             // })
+            console.log("User: " + email, hash)
             addUser({ name, email, hash, trips})
             setSuccess(true)
         })
