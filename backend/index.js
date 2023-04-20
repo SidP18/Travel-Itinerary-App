@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 
 app.post("/create-user", async (req, res) => {
     const result = await client.index({
-        index: "index",
+        index: "test_index",
         id: req.body.email,
         document: {
             name: req.name,
@@ -39,31 +39,33 @@ app.post("/create-user", async (req, res) => {
 
 app.post("/add-trip", async (req, res) => {
     const result = await client.update({
-        index: 'index',
+        index: 'test_index',
         id: req.body.id,
         script: {
             lang: 'painless',
-            source: 'ctx._source.user.add',
-            params: req.body.trip
+            source: "ctx._source.trips.add(params.object)",
+            params: {
+                object: [req.body.trip]
+            }
         }
     });
     console.log(result)
     res.send("Added Trip: " + req.body.trip.Location);
 });
 
+app.post("/user-search", async (req, res) => {
+    const result = await client.search({
+        index: "test_index",
+        query: { match: { "_id": req.body.email } },
+    });
+    console.log(result)
+    res.send(result.hits);
+});
+
 app.delete("/remove-post", async (req, res) => {
     const result = await client.delete({
         index: "posts",
         id: req.query.id,
-    });
-
-    res.json(result);
-});
-
-app.get("/search", async (req, res) => {
-    const result = await client.search({
-        index: "posts",
-        query: { fuzzy: { title: req.query.query } },
     });
 
     res.json(result);

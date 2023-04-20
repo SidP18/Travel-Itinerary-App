@@ -39,16 +39,13 @@ export const addTrip = async (auth, trip) => {
     console.log(response.data)
 };
 
+export const userSearch = async (auth) => {
+    const response = await axios.post("http://localhost:8080/user-search", auth);
+
+    return response.data;
+};
+
 // const removePosts = async (removedIds) => {
 //     setPosts(posts.filter((post) => !removedIds.includes(post.id)));
 //     await Promise.all(removedIds.map((id) => api.removePost(id)));
-// };
-// const search = async () => {
-//     const response = await api.search(query);
-
-//     setSelection(
-//         response.hits.hits.map((hit) => {
-//             return hit._id;
-//         })
-//     );
 // };
